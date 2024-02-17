@@ -4,8 +4,8 @@ import projectList from '../project-list.json'
 function ProjectGallery() {
   return (
     <>
-      <div className="container">
-        <h1>Projects</h1>
+      <div className="container py-5">
+        <h2>Projects</h2>
         <div className="row">
           {
             projectList.map((project) => (

@@ -10,8 +10,8 @@ function Contact() {
   }
   return (
     <>
-      <section className="container">
-        <h1>Contact</h1>
+      <section className="container py-5">
+        <h2>Contact</h2>
         <Form>
           <Form.Group className="mb-3" controlId="name">
             <Form.Label>Name</Form.Label>

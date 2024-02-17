@@ -1,10 +1,10 @@
 function About() {
   return (
     <>
-      <section className="container">
-        <h1>About</h1>
+      <section className="container py-5">
+        <h2>About</h2>
 
-        <p>Hi there! I'm Richard, a Graphic Designer and soon-to-be Front End Developer living and working in
+        <p>Hi there! I&apos;m Richard, a Graphic Designer and soon-to-be Front End Developer living and working in
           London.</p>
         <p>
           After several years in the design industry I am now looking for new challenges and opportunities as a

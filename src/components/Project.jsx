@@ -1,6 +1,7 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
+// eslint-disable-next-line react/prop-types
 function Project({ title, image, description, deployedURL, repoLink }) {
   return (
     <div className='col-md-6 col-lg-4'>
