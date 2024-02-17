@@ -4,8 +4,8 @@ import Card from 'react-bootstrap/Card';
 // eslint-disable-next-line react/prop-types
 function Project({ title, image, description, deployedURL, repoLink }) {
   return (
-    <div className='col-md-6 col-lg-4'>
-      <Card>
+    <div className='col-md-6 col-lg-4 my-2'>
+      <Card className="h-100">
         <Card.Img variant="top" src={image} />
         <Card.Body>
           <Card.Title>{title}</Card.Title>
