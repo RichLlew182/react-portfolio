@@ -1,7 +1,7 @@
-import GalleryCard from "./GalleryCard";
+import Project from "./Project";
 import projectList from '../project-list.json'
 
-function Projects() {
+function ProjectGallery() {
   return (
     <>
       <div className="container">
@@ -9,7 +9,7 @@ function Projects() {
         <div className="row">
           {
             projectList.map((project) => (
-              <GalleryCard key={project.id} title={project.title} description={project.description} image={project.image} deployedURL={project.deployedURL} repoLink={project.repoLink} />
+              <Project key={project.id} title={project.title} description={project.description} image={project.image} deployedURL={project.deployedURL} repoLink={project.repoLink} />
             ))
           }
         </div>
@@ -18,4 +18,4 @@ function Projects() {
   );
 }
 
-export default Projects;
+export default ProjectGallery;

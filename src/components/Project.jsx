@@ -1,7 +1,7 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
-function GalleryCard({ title, image, description, deployedURL, repoLink }) {
+function Project({ title, image, description, deployedURL, repoLink }) {
   return (
     <div className='col-md-6 col-lg-4'>
       <Card>
@@ -19,5 +19,5 @@ function GalleryCard({ title, image, description, deployedURL, repoLink }) {
   );
 }
 
-export default GalleryCard;
+export default Project;
 
