@@ -1,4 +1,4 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 import './App.css'
 import NavTabs from './components/NavBar'
 import { HashRouter as Router, Route, Routes } from 'react-router-dom'
@@ -21,8 +21,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="contact" element={<Contact />} />
-          {/* Define a route that will have descendant routes */}
-          <Route path="projects/*" element={<Projects />} />
+          <Route path="projects" element={<Projects />} />
         </Routes>
 
       </Router>

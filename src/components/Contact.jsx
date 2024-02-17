@@ -1,10 +1,33 @@
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
+
 function Contact() {
   return (
     <>
-      <h1>Contact</h1>
-      <p>
-        No, no, no! Yes, yes. A bit. But she's got a wart. The swallow may fly south with the sun, and the house martin or the plover may seek warmer climes in winter, yet these are not strangers to our land. Knights of Ni, we are but simple travelers who seek the enchanter who lives beyond these woods.
-      </p>
+      <div className="container">
+        <h1>Contact</h1>
+        <Form>
+          <Form.Group className="mb-3" controlId="nameInput">
+            <Form.Label>Name</Form.Label>
+            <Form.Control type="email" placeholder="Name" />
+          </Form.Group>
+          <Form.Group className="mb-3" controlId="emailInput">
+            <Form.Label>Email address</Form.Label>
+            <Form.Control type="email" placeholder="name@example.com" />
+          </Form.Group>
+          <Form.Group className="mb-3" controlId="phoneInput">
+            <Form.Label>Contact Number</Form.Label>
+            <Form.Control type="email" placeholder="+44 01234 567 890" />
+          </Form.Group>
+          <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+            <Form.Label>Example textarea</Form.Label>
+            <Form.Control as="textarea" rows={3} />
+          </Form.Group>
+          <Button variant="primary" type="submit" id="contactButton">
+            Submit
+          </Button>
+        </Form>
+      </div>
     </>
   );
 }
