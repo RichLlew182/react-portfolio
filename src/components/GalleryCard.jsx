@@ -1,4 +1,4 @@
-function Gallery() {
+function GalleryCard() {
   return (
     <>
       <div className="container">
@@ -11,4 +11,4 @@ function Gallery() {
   );
 }
 
-export default Gallery;
+export default GalleryCard;
