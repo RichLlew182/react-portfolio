@@ -2,6 +2,7 @@
   {
     "id": 1,
     "title": "The Pursuit of Hobbyness",
+    "description": "The Pursuit of Hobbyness is an innovative web application designed to inspire users in discovering and embracing new hobbies.",
     "image":
       "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
     "deployedURL": "https://richllew182.github.io/the-pursuit-of-hobbyness/",
@@ -10,6 +11,7 @@
   {
   "id": 2,
   "title": "Bootstrap Portfolio",
+  "description": "My first attempt at a portfolio page utilising Bootstrap components and custom css",
   "image":
     "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
   "deployedURL": "https://richllew182.github.io/Bootstrap-Portfolio/",

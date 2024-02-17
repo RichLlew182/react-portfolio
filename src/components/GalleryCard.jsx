@@ -1,13 +1,20 @@
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
+import projectList from '../project-list.json'
+
 function GalleryCard() {
   return (
-    <>
-      <div className="container">
-        <h1>Gallery</h1>
-        <p>
-          No, no, no! Yes, yes. A bit. The swallow may fly south with the sun, and the house martin or the plover may seek warmer climes in winter, yet these are not strangers to our land. Knights of Ni, we are but simple travelers who seek the enchanter who lives beyond these woods.
-        </p>
-      </div>
-    </>
+    <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src={projectList[0].image} />
+      <Card.Body>
+        <Card.Title>{projectList[0].title}</Card.Title>
+        <Card.Text>
+          {projectList[0].description}
+        </Card.Text>
+        <Button href={projectList[0].deployedURL} target="_blank" variant="primary">View Project</Button>
+        <Button href={projectList[0].repoLink} target="_blank" variant="primary">Repo Link</Button>
+      </Card.Body>
+    </Card>
   );
 }
 
