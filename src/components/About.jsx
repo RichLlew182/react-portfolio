@@ -1,12 +1,26 @@
 function About() {
   return (
     <>
-      <div className="container">
+      <section className="container">
         <h1>About</h1>
+
+        <p>Hi there! I'm Richard, a Graphic Designer and soon-to-be Front End Developer living and working in
+          London.</p>
         <p>
-          No, no, no! Yes, yes. A bit.  The swallow may fly south with the sun, and the house martin or the plover may seek warmer climes in winter, yet these are not strangers to our land. Knights of Ni, we are but simple travelers who seek the enchanter who lives beyond these woods.
+          After several years in the design industry I am now looking for new challenges and opportunities as a
+          Developer, so I have created this website to demonstrate some of my work.
         </p>
-      </div >
+        <p>
+          If you like what you see please get in touch below.</p>
+
+        <ul className="list-group">
+          <li className="list-group-item bg-transparent border-0 px-0"><a className=" text-decoration-none text-dark" href=""><i className="fa-solid fa-phone me-1" aria-hidden="true"></i> Call
+            Me</a></li>
+          <li className="list-group-item bg-transparent border-0 px-0"><a className=" text-decoration-none text-dark" href="mailto:richard.lee.llewellyn@gmail.com"><i className="fa-regular fa-envelope me-1" aria-hidden="true"></i> Email
+            Me</a>
+          </li>
+        </ul>
+      </section >
     </>
   );
 }

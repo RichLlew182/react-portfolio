@@ -10,7 +10,7 @@ function Contact() {
   }
   return (
     <>
-      <div className="container">
+      <section className="container">
         <h1>Contact</h1>
         <Form>
           <Form.Group className="mb-3" controlId="name">
@@ -33,7 +33,7 @@ function Contact() {
             Submit
           </Button>
         </Form>
-      </div>
+      </section>
     </>
   );
 }
