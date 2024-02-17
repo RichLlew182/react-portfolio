@@ -2,7 +2,7 @@ function About() {
   return (
     <>
       <section className="container py-5">
-        <h2>About</h2>
+        <h2 className="mb-4 display-5 fw-bold">About</h2>
 
         <p>Hi there! I&apos;m Richard, a Graphic Designer and soon-to-be Front End Developer living and working in
           London.</p>

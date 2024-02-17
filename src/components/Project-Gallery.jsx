@@ -5,7 +5,7 @@ function ProjectGallery() {
   return (
     <>
       <div className="container py-5">
-        <h2>Projects</h2>
+        <h2 className="mb-4 display-5 fw-bold">Projects</h2>
         <div className="row">
           {
             projectList.map((project) => (

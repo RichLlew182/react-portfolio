@@ -11,7 +11,7 @@ function Contact() {
   return (
     <>
       <section className="container py-5">
-        <h2>Contact</h2>
+        <h2 className="mb-4 display-5 fw-bold">Contact</h2>
         <Form>
           <Form.Group className="mb-3" controlId="name">
             <Form.Label>Name</Form.Label>
