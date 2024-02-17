@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card';
 // eslint-disable-next-line react/prop-types
 function Project({ title, image, description, deployedURL, repoLink }) {
   return (
-    <div className='col-md-6 col-lg-4 my-2'>
+    <div className='col-md-6 col-lg-4 my-3'>
       <Card className="h-100">
         <Card.Img variant="top" src={image} />
         <Card.Body>
@@ -12,7 +12,7 @@ function Project({ title, image, description, deployedURL, repoLink }) {
           <Card.Text>
             {description}
           </Card.Text>
-          <Button href={deployedURL} target="_blank" variant="primary">View Project</Button>
+          <Button href={deployedURL} target="_blank" className="me-2" variant="primary">View Project</Button>
           <Button href={repoLink} target="_blank" variant="primary">Repo Link</Button>
         </Card.Body>
       </Card>

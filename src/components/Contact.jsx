@@ -10,7 +10,7 @@ function Contact() {
   }
   return (
     <>
-      <section className="container py-5">
+      <section className="container py-5 px-0">
         <h2 className="mb-4 display-5 fw-bold">Contact</h2>
         <Form>
           <Form.Group className="mb-3" controlId="name">

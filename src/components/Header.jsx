@@ -8,7 +8,7 @@ function Header() {
     <>
       <header>
         <Navbar sticky="top" collapseOnSelect expand="lg" className="bg-body-tertiary">
-          <Container>
+          <Container className="px-0">
             <Navbar.Brand href="/">RL.dev</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
