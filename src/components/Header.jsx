@@ -1,12 +1,30 @@
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import Jumbotron from './Jumbotron';
+
 function Header() {
   return (
     <>
-      <div className="p-5 mb-4 bg-light rounded-3">
-        <div className="container-fluid py-5">
-
-        </div>
-      </div>
+      <header>
+        <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
+          <Container>
+            <Navbar.Brand href="/">RL.dev</Navbar.Brand>
+            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+            <Navbar.Collapse id="responsive-navbar-nav">
+              <Nav>
+                <Nav.Link href="/">Home</Nav.Link>
+                <Nav.Link href="#about">About</Nav.Link>
+                <Nav.Link href="#projects">Projects</Nav.Link>
+                <Nav.Link href="#contact">Contact</Nav.Link>
+              </Nav>
+            </Navbar.Collapse>
+          </Container>
+        </Navbar>
+        <Jumbotron />
+      </header>
     </>
+
   );
 }
 
