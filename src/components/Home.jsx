@@ -2,7 +2,7 @@ function Home() {
   return (
     <>
       <section className="container py-5 px-0">
-        <h2 className="mb-4 display-5 fw-bold">About</h2>
+        <h2 className="mb-4 display-5">About</h2>
 
         <div className="mb-4">
           <p>My name is Richard, and I am a skilled Front-End Developer and designer based in the vibrant city of London. With a rich background spanning several years in the design industry, I am now eagerly seeking fresh challenges and exciting opportunities to leverage my expertise as a Front-End Developer.</p>
