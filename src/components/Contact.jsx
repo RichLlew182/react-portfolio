@@ -4,6 +4,12 @@ import { useState } from 'react';
 
 function Contact() {
 
+  const contactForm = document.querySelector('#contact-form');
+  const thankYouMessage = document.querySelector('#thankYouMessage');
+  const displayNone = { display: 'none' }
+  const displayBlock = { display: 'block' }
+
+
   // Setting initial state to an object
   const [formData, setFormData] = useState({
     name: '',
@@ -24,22 +30,27 @@ function Contact() {
   };
 
   const handleFormSubmit = (event) => {
-    // Preventing the default behavior of the form submit (which is to refresh the page)
+
     event.preventDefault();
 
-    // Alert the user their first and last name, clear `formData.firstName` and `formData.lastName`, clearing the inputs
-    alert(`Hello ${formData.name} ${formData.email} ${formData.phone} ${formData.message}`);
-    setFormData({
-      name: '',
-      email: '',
-      phone: '',
-      message: ''
-    });
+    if (!formData.name || !formData.email || !formData.phone || !formData.message) {
+      alert('Looks like you missed a field')
+    }
 
+    else {
 
+      thankYouMessage.style = { displayBlock }
+      contactForm.style.display = 'none';
+    }
+
+    // setFormData({
+    //   name: '',
+    //   email: '',
+    //   phone: '',
+    //   message: ''
+    // });
 
   };
-
 
   return (
     <>
@@ -66,6 +77,8 @@ function Contact() {
             Submit
           </Button>
         </Form>
+        <div id="thankYouMessage" style={displayNone}><h3>Thanks for reaching out {formData.name}! I'll be in touch to discuss your project within 24 hours.</h3></div>
+
       </section>
     </>
   );
