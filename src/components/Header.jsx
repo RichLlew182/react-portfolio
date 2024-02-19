@@ -11,7 +11,7 @@ function Header() {
           <Container className="px-0">
             <Navbar.Brand href="/">RL.dev</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-            <Navbar.Collapse id="responsive-navbar-nav">
+            <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
               <Nav>
                 <Nav.Link href="/">Home</Nav.Link>
                 <Nav.Link href="#project-gallery">Projects</Nav.Link>
