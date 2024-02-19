@@ -23,4 +23,6 @@ h6 {
 .card-img-bottom,
 .card-img-top {
   aspect-ratio: 16 / 10;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
