@@ -6,7 +6,7 @@ function Home() {
       <section className="container py-5 px-0">
 
         <Row>
-          <div className="col-lg-12 col-xl-6">
+          <div className="col-lg-12 col-xl-6 mb-5 mb-xl-0">
             <div className="mb-4">
               <h2 className="mb-4 display-5">About Me</h2>
               <p>My name is Richard, and I am a skilled Front-End Developer and designer based in the vibrant city of London. With a rich background spanning several years in the design industry, I am now eagerly seeking fresh challenges and exciting opportunities to leverage my expertise as a Front-End Developer.</p>
@@ -25,52 +25,22 @@ function Home() {
           <div className="col-lg-12 col-xl-6">
             <div className="h-100 ">
               <h2 className="mb-4 display-5">My Skills</h2>
-              <ul className="list-group list-group-horizontal">
-                <li className="list-group-item d-flex gap-3 py-3 align-items-center bg-light">An item</li>
-                <li className="list-group-item d-flex gap-3 py-3 align-items-center bg-light">A second item</li>
+              <ul className="list-group list-group-horizontal d-flex flex-wrap gap-3">
+                <li className="list-group-item d-flex py-2 align-items-center bg-light rounded border-0">HTML5</li>
+                <li className="list-group-item d-flex py-2 align-items-center bg-light rounded border-0">CSS3</li>
+                <li className="list-group-item d-flex py-2 align-items-center bg-light rounded border-0">Bootstrap</li>
+                <li className="list-group-item d-flex py-2 align-items-center bg-light rounded border-0">Tailwind</li>
+                <li className="list-group-item d-flex py-2 align-items-center bg-light rounded border-0">Javascript ES5/ES6</li>
+                <li className="list-group-item d-flex py-2 align-items-center bg-light rounded border-0">JQuery</li>
+                <li className="list-group-item d-flex py-2 align-items-center bg-light rounded border-0">React</li>
+                <li className="list-group-item d-flex py-2 align-items-center bg-light rounded border-0">Node.js</li>
+                <li className="list-group-item d-flex py-2 align-items-center bg-light rounded border-0">Git</li>
+                <li className="list-group-item d-flex py-2 align-items-center bg-light rounded border-0">Figma</li>
+                <li className="list-group-item d-flex py-2 align-items-center bg-light rounded border-0">Photoshop</li>
+                <li className="list-group-item d-flex py-2 align-items-center bg-light rounded border-0">Illustrator</li>
+                <li className="list-group-item d-flex py-2 align-items-center bg-light rounded border-0">After Effects</li>
               </ul>
-              <ul className="list-group">
-                <li className="list-group-item d-flex gap-3 py-3 align-items-center bg-light">
-                  <img src="./assets/images/html-icon.png" alt="HTML5 Icon" width="32" height="32"
-                    className="rounded-circle flex-shrink-0"></img>
-                  <div className="d-flex gap-2 w-100 justify-content-between">
-                    <h6 className="mb-0">HTML5</h6>
-                  </div>
-                </li>
 
-                <li className="list-group-item d-flex gap-3 py-3 align-items-center bg-light">
-                  <img src="./assets/images/css-icon.png" alt="CSS3 Icon" width="32" height="32"
-                    className="rounded-circle flex-shrink-0"></img>
-                  <div className="d-flex gap-2 w-100 justify-content-between">
-                    <h6 className="mb-0">CSS3</h6>
-                  </div>
-                </li>
-
-                <li className="list-group-item d-flex gap-3 py-3 align-items-center bg-light">
-                  <img src="./assets/images/js-icon.png" alt="Javascript Icon" width="32" height="32"
-                    className="rounded-circle flex-shrink-0"></img>
-                  <div className="d-flex gap-2 w-100 justify-content-between">
-                    <h6 className="mb-0">JavaScript</h6>
-                  </div>
-                </li>
-
-                <li className="list-group-item d-flex gap-3 py-3 align-items-center bg-light">
-                  <img src="./assets/images/react.png" alt="React Icon" width="32" height="32"
-                    className="rounded-circle flex-shrink-0"></img>
-                  <div className="d-flex gap-2 w-100 justify-content-between">
-                    <h6 className="mb-0">React</h6>
-                  </div>
-                </li>
-
-                <li className="list-group-item d-flex gap-3 py-3 align-items-center bg-light">
-                  <img src="./assets/images/node.png" alt="Node Icon" width="32" height="32"
-                    className="rounded-circle flex-shrink-0"></img>
-                  <div className="d-flex gap-2 w-100 justify-content-between">
-                    <h6 className="mb-0">Node.js</h6>
-                  </div>
-                </li>
-
-              </ul>
             </div>
           </div>
         </Row>
