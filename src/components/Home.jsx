@@ -29,7 +29,7 @@ function Home() {
                 <li className="list-group-item d-flex py-2 align-items-center bg-light rounded border-0">HTML5</li>
                 <li className="list-group-item d-flex py-2 align-items-center bg-light rounded border-0">CSS3</li>
                 <li className="list-group-item d-flex py-2 align-items-center bg-light rounded border-0">Bootstrap</li>
-                <li className="list-group-item d-flex py-2 align-items-center bg-light rounded border-0">Tailwind</li>
+                <li className="list-group-item d-flex py-2 align-items-center bg-light rounded border-0">Tailwind CSS</li>
                 <li className="list-group-item d-flex py-2 align-items-center bg-light rounded border-0">Javascript ES5/ES6</li>
                 <li className="list-group-item d-flex py-2 align-items-center bg-light rounded border-0">JQuery</li>
                 <li className="list-group-item d-flex py-2 align-items-center bg-light rounded border-0">React</li>
