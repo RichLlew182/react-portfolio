@@ -59,14 +59,14 @@ function Contact() {
 
   return (
     <>
-      <section className="container py-5 px-5 px-sm-0">
+      <section className="container py-5 px-4 px-sm-0">
         <h2 className="mb-2 display-5 fw-bold">Contact</h2>
         <div className="mb-5">
           <p className="mb-4">
             Need to get in touch? No problem! Feel free to reach out to me via email or phone, whichever floats your boat. Alternatively, you can drop me a line using the form below. Looking forward to hearing from you!</p>
 
           <div className="btn-toolbar">
-            <a className="btn btn-primary me-2" href="#project-gallery" type="button"><i className="fa-solid fa-envelope me-2"></i>Email Me</a><a href="#contact" className="btn btn-secondary me-2" type="button"><i className="fa-solid fa-phone me-2"></i>Call Me</a>
+            <a className="btn btn-primary me-3 border-0" href="#project-gallery" type="button"><i className="fa-solid fa-envelope me-3 border-0"></i>Email Me</a><a href="#contact" className="btn btn-secondary me-2" type="button"><i className="fa-solid fa-phone me-2"></i>Call Me</a>
           </div>
         </div>
         <div className="p-4 p-sm-5 bg-dark rounded-2 text-white">

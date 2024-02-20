@@ -14,9 +14,24 @@ h6 {
   font-weight: 500;
 }
 
+header {
+  background-color: #15F5BA;
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
 .display-5,
 .display-4 {
   font-weight: 500 !important;
+}
+
+.card {
+  -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border: none;
 }
 
 .card-img,
@@ -32,5 +47,23 @@ img.skill-icon {
   margin-right: 7px;
   width: 25px;
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
+}
+
+.list-group-item {
+  background-color: #F0F3FF;
+}
+
+/* Media Queries */
+
+@media (max-width: 767px) {
+
+  .display-4 {
+    font-size: 28px;
+  }
+
+  #profile-picture {
+    max-width: 80%;
+  }
+
 }

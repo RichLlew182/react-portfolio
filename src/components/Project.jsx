@@ -12,8 +12,8 @@ function Project({ title, image, description, deployedURL, repoLink }) {
           <Card.Text>
             {description}
           </Card.Text>
-          <Button href={deployedURL} target="_blank" className="me-2" variant="primary">View Project</Button>
-          <Button href={repoLink} target="_blank" variant="primary">Repo Link</Button>
+          <Button href={deployedURL} target="_blank" className="me-3" variant="primary">View Project</Button>
+          <Button href={repoLink} target="_blank" variant="secondary">Repo Link</Button>
         </Card.Body>
       </Card>
     </div>
