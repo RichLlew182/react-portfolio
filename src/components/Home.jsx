@@ -24,21 +24,21 @@ function Home() {
 
           <div className="col-lg-12 col-xl-6">
             <div className="h-100 ">
-              <h2 className="mb-4 display-5">My Skills</h2>
+              <h2 className="mb-4 display-5">My Skills so far...</h2>
               <ul className="list-group list-group-horizontal d-flex flex-wrap gap-3">
-                <li className="list-group-item d-flex py-2 align-items-center bg-light rounded border-0">HTML5</li>
-                <li className="list-group-item d-flex py-2 align-items-center bg-light rounded border-0">CSS3</li>
-                <li className="list-group-item d-flex py-2 align-items-center bg-light rounded border-0">Bootstrap</li>
-                <li className="list-group-item d-flex py-2 align-items-center bg-light rounded border-0">Tailwind CSS</li>
-                <li className="list-group-item d-flex py-2 align-items-center bg-light rounded border-0">Javascript ES5/ES6</li>
-                <li className="list-group-item d-flex py-2 align-items-center bg-light rounded border-0">JQuery</li>
-                <li className="list-group-item d-flex py-2 align-items-center bg-light rounded border-0">React</li>
-                <li className="list-group-item d-flex py-2 align-items-center bg-light rounded border-0">Node.js</li>
-                <li className="list-group-item d-flex py-2 align-items-center bg-light rounded border-0">Git</li>
-                <li className="list-group-item d-flex py-2 align-items-center bg-light rounded border-0">Figma</li>
-                <li className="list-group-item d-flex py-2 align-items-center bg-light rounded border-0">Photoshop</li>
-                <li className="list-group-item d-flex py-2 align-items-center bg-light rounded border-0">Illustrator</li>
-                <li className="list-group-item d-flex py-2 align-items-center bg-light rounded border-0">After Effects</li>
+                <li className="list-group-item d-flex py-2 align-items-center bg-light rounded border-0"><img className="skill-icon" src="/src/assets/icons/html-icon.png"></img>HTML5</li>
+                <li className="list-group-item d-flex py-2 align-items-center bg-light rounded border-0"><img className="skill-icon" src="/src/assets/icons/css-icon.png"></img>CSS3</li>
+                <li className="list-group-item d-flex py-2 align-items-center bg-light rounded border-0"><img className="skill-icon" src="/src/assets/icons/js-icon.png"></img>Javascript ES5/ES6</li>
+                <li className="list-group-item d-flex py-2 align-items-center bg-light rounded border-0"><img className="skill-icon" src="/src/assets/icons/bootstrap-icon.png"></img>Bootstrap</li>
+                <li className="list-group-item d-flex py-2 align-items-center bg-light rounded border-0"><img className="skill-icon" src="/src/assets/icons/tailwind-icon.png"></img>Tailwind CSS</li>
+                <li className="list-group-item d-flex py-2 align-items-center bg-light rounded border-0"><img className="skill-icon" src="/src/assets/icons/jquery-icon.png"></img>JQuery</li>
+                <li className="list-group-item d-flex py-2 align-items-center bg-light rounded border-0"><img className="skill-icon" src="/src/assets/icons/react-icon.png"></img>React</li>
+                <li className="list-group-item d-flex py-2 align-items-center bg-light rounded border-0"><img className="skill-icon" src="/src/assets/icons/node-icon.png"></img>Node.js</li>
+                <li className="list-group-item d-flex py-2 align-items-center bg-light rounded border-0"><img className="skill-icon" src="/src/assets/icons/git-icon.png"></img>Git</li>
+                <li className="list-group-item d-flex py-2 align-items-center bg-light rounded border-0"><img className="skill-icon" src="/src/assets/icons/figma-icon.png"></img>Figma</li>
+                <li className="list-group-item d-flex py-2 align-items-center bg-light rounded border-0"><img className="skill-icon" src="/src/assets/icons/photoshop-icon.png"></img>Photoshop</li>
+                <li className="list-group-item d-flex py-2 align-items-center bg-light rounded border-0"><img className="skill-icon" src="/src/assets/icons/illustrator-icon.png"></img>Illustrator</li>
+                <li className="list-group-item d-flex py-2 align-items-center bg-light rounded border-0"><img className="skill-icon" src="/src/assets/icons/after-effects-icon.png"></img>After Effects</li>
               </ul>
 
             </div>
