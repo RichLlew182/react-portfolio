@@ -69,24 +69,24 @@ function Contact() {
             <a className="btn btn-primary me-2" href="#project-gallery" type="button"><i className="fa-solid fa-envelope me-2"></i>Email Me</a><a href="#contact" className="btn btn-secondary me-2" type="button"><i className="fa-solid fa-phone me-2"></i>Call Me</a>
           </div>
         </div>
-        <div className="p-5 bg-dark rounded-2 text-white">
+        <div className="p-4 p-sm-5 bg-dark rounded-2 text-white">
           <Form id="contact-form" noValidate validated={validated} onSubmit={handleFormSubmit}>
-            <Row className="mb-3">
-              <Form.Group as={Col} md="4" controlId="name">
+            <Row className="mb-sm-3">
+              <Form.Group className="mb-3" as={Col} md="4" controlId="name">
                 <Form.Label>Name</Form.Label>
                 <Form.Control type="text" name="name" placeholder="Name" value={formData.name} onChange={handleInputChange} required />
                 <Form.Control.Feedback type="invalid">
                   Please provide your name.
                 </Form.Control.Feedback>
               </Form.Group>
-              <Form.Group as={Col} md="4" controlId="email">
+              <Form.Group className="mb-3" as={Col} md="4" controlId="email">
                 <Form.Label>Email address</Form.Label>
                 <Form.Control type="email" name="email" placeholder="name@example.com" onChange={handleInputChange} required />
                 <Form.Control.Feedback type="invalid">
                   Please provide your email address.
                 </Form.Control.Feedback>
               </Form.Group>
-              <Form.Group as={Col} md="4" controlId="phone">
+              <Form.Group className="mb-3" as={Col} md="4" controlId="phone">
                 <Form.Label>Contact Number</Form.Label>
                 <Form.Control type="tel" name="phone" placeholder="+44 01234 567 890" onChange={handleInputChange} required />
                 <Form.Control.Feedback type="invalid">
@@ -94,14 +94,14 @@ function Contact() {
                 </Form.Control.Feedback>
               </Form.Group>
             </Row>
-            <Form.Group className="mb-3" controlId="message">
+            <Form.Group className="mb-3 d-flex flex-column" controlId="message">
               <Form.Label>Your Message</Form.Label>
               <Form.Control as="textarea" name="message" rows={3} onChange={handleInputChange} required />
               <Form.Control.Feedback type="invalid">
                 Please let me know what you want to discuss.
               </Form.Control.Feedback>
             </Form.Group>
-            <Button variant="primary" type="submit" id="contactButton">
+            <Button className="mt-3" variant="primary" type="submit" id="contactButton">
               Submit
             </Button>
           </Form>
