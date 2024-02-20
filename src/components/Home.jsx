@@ -3,7 +3,7 @@ import Row from "react-bootstrap/Row";
 function Home() {
   return (
     <>
-      <section className="container py-5 px-0">
+      <section className="container py-5 px-5 px-sm-0">
 
         <Row>
           <div className="col-lg-12 col-xl-6 mb-5 mb-xl-0">
@@ -24,7 +24,7 @@ function Home() {
 
           <div className="col-lg-12 col-xl-6">
             <div className="h-100 ">
-              <h2 className="mb-4 display-5">My Skills so far...</h2>
+              <h2 className="mb-4 display-5">My Skills So Far...</h2>
               <ul className="list-group list-group-horizontal d-flex flex-wrap gap-3">
                 <li className="list-group-item d-flex py-2 align-items-center bg-light rounded border-0"><img className="skill-icon" src="/src/assets/icons/html-icon.png"></img>HTML5</li>
                 <li className="list-group-item d-flex py-2 align-items-center bg-light rounded border-0"><img className="skill-icon" src="/src/assets/icons/css-icon.png"></img>CSS3</li>

@@ -2,7 +2,7 @@ function Jumbotron() {
   return (
     <>
       <section className="bg-light">
-        <div className="container py-5 px-0">
+        <div className="container py-5 px-5 px-sm-0">
           <div className="row gx-5 d-flex flex-wrap align-items-center flex-column-reverse flex-lg-row">
             <div className="col-sm-12 col-lg-8 py-4  py-lg-0 d-flex justify-content-start">
               <h1 className="display-4"><span className="d-block">Hi, I&apos;m Richard. </span><span className="d-block">A Front-End Developer and Designer.</span></h1>
