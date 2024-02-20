@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-      <Router basename="/react-portfolio">
+      <Router basename="/">
 
         <Header />
         <Routes>
