@@ -10,7 +10,7 @@ function Jumbotron() {
             </div>
 
             <div className="col-sm-12 col-lg-4 py-4  py-lg-0 d-flex justify-content-center">
-              <img src="/src/assets/images/profile-picture.jpeg" className="img-fluid rounded-circle" alt="Profile Picture"></img>
+              <img src="./assets/images/profile-picture.jpeg" className="img-fluid rounded-circle" alt="Profile Picture"></img>
             </div>
           </div>
         </div>

@@ -4,7 +4,7 @@
     "title": "The Pursuit of Hobbyness",
     "description": "An innovative web application designed to inspire users in discovering and embracing new hobbies.",
     "image":
-      "/src/assets/images/hobbies.jpg",
+      "./assets/images/hobbies.jpg",
     "deployedURL": "https://richllew182.github.io/the-pursuit-of-hobbyness/",
     "repoLink": "https://github.com/RichLlew182/the-pursuit-of-hobbyness"
   },
@@ -13,7 +13,7 @@
   "title": "Bootstrap Portfolio",
   "description": "My first attempt at a portfolio page utilising Bootstrap components and custom css.",
   "image":
-    "/src/assets/images/bootstrap-portfolio.jpg",
+    "./assets/images/bootstrap-portfolio.jpg",
   "deployedURL": "https://richllew182.github.io/Bootstrap-Portfolio/",
   "repoLink": "https://github.com/RichLlew182/Bootstrap-Portfolio"
 },
@@ -22,7 +22,7 @@
   "title": "Code Quiz",
   "description": "A timed coding quiz with multiple-choice questions.",
   "image":
-    "/src/assets/images/coding-quiz.jpg",
+    "./assets/images/coding-quiz.jpg",
   "deployedURL": "https://richllew182.github.io/code-quiz/",
   "repoLink": "https://github.com/RichLlew182/code-quiz"
 },
@@ -31,7 +31,7 @@
   "title": "Weather Dashboard",
   "description": "An App that displays a 5 day weather forecast for any city using the OpenWeather API",
   "image":
-    "/src/assets/images/weather-dashboard.jpg",
+    "./assets/images/weather-dashboard.jpg",
   "deployedURL": "https://richllew182.github.io/weather-dashboard/",
   "repoLink": "https://github.com/RichLlew182/weather-dashboard"
 },
@@ -40,7 +40,7 @@
 "title": "Work Day Scheduler",
 "description": "A simple calender application that allows a user to save events for each hour of the day.",
 "image":
-  "/src/assets/images/work-day-scheduler.jpg",
+  "./assets/images/work-day-scheduler.jpg",
 "deployedURL": "https://richllew182.github.io/work-day-scheduler/",
 "repoLink": "https://github.com/RichLlew182/work-day-scheduler"
 },
@@ -49,7 +49,7 @@
 "title": "Random Password Generator",
 "description": "The app that generates a random password based on a user's selection of different characters.",
 "image":
-  "/src/assets/images/random-password-generator.jpg",
+  "./assets/images/random-password-generator.jpg",
 "deployedURL": "https://richllew182.github.io/password-generator/",
 "repoLink": "https://github.com/RichLlew182/password-generator"
 }
