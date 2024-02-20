@@ -37,25 +37,21 @@ function Contact() {
     event.preventDefault();
 
     const form = event.currentTarget;
+
+    // checks if input fields have passed validation
     if (form.checkValidity() === false) {
       event.preventDefault();
       event.stopPropagation();
     } else {
+      // displays thank you message if all fields have been validated and hides form
       thankYouMessage.style = { displayBlock }
       contactForm.style.display = 'none';
     }
 
+    // Updating the forms validated state to be true
     setValidated(true);
 
   }
-
-  // setFormData({
-  //   name: '',
-  //   email: '',
-  //   phone: '',
-  //   message: ''
-  // });
-
 
   return (
     <>
