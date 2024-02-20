@@ -3,7 +3,7 @@ import Row from "react-bootstrap/Row";
 function Home() {
   return (
     <>
-      <section className="container py-5 px-4 px-sm-0">
+      <section className="container py-5 px-4 px-sm-0 mt-lg-4">
 
         <Row>
           <div className="col-lg-12 col-xl-6 mb-5 mb-xl-0">

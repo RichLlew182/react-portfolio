@@ -4,8 +4,8 @@ import projectList from '../project-list.json'
 function ProjectGallery() {
   return (
     <>
-      <div className="container py-5 px-4 px-sm-0">
-        <h2 className="mb-4 display-5 fw-bold">Projects</h2>
+      <section className="container py-5 px-4 px-sm-0 mt-lg-4">
+        <h2 className="mb-4 display-5">Projects</h2>
         <div className="row">
           {
             projectList.map((project) => (
@@ -13,7 +13,7 @@ function ProjectGallery() {
             ))
           }
         </div>
-      </div>
+      </section>
     </>
   );
 }
