@@ -38,7 +38,7 @@ function Home() {
                 <li className="list-group-item d-flex py-2 align-items-center bg-light rounded border-0"><img className="skill-icon" src="./assets/icons/figma-icon.png"></img>Figma</li>
                 <li className="list-group-item d-flex py-2 align-items-center bg-light rounded border-0"><img className="skill-icon" src="./assets/icons/photoshop-icon.png"></img>Photoshop</li>
                 <li className="list-group-item d-flex py-2 align-items-center bg-light rounded border-0"><img className="skill-icon" src="./assets/icons/illustrator-icon.png"></img>Illustrator</li>
-                <li className="list-group-item d-flex py-2 align-items-center bg-light rounded border-0"><img className="skill-icon" src="/src/assets/icons/after-effects-icon.png"></img>After Effects</li>
+                <li className="list-group-item d-flex py-2 align-items-center bg-light rounded border-0"><img className="skill-icon" src="./assets/icons/after-effects-icon.png"></img>After Effects</li>
               </ul>
 
             </div>
