@@ -105,7 +105,7 @@ function Contact() {
               Submit
             </Button>
           </Form>
-          <div id="thankYouMessage" style={displayNone}><h3>Thanks for reaching out {formData.name}! I'll be in touch to discuss your project within 24 hours.</h3></div>
+          <div id="thankYouMessage" style={displayNone}><h3>Thanks for reaching out {formData.name}! I&apos;ll be in touch to discuss your project within 24 hours.</h3></div>
         </div>
 
       </section >
