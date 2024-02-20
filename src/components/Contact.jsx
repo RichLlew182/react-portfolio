@@ -66,10 +66,10 @@ function Contact() {
             Need to get in touch? No problem! Feel free to reach out to me via email or phone, whichever floats your boat. Alternatively, you can drop me a line using the form below. Looking forward to hearing from you!</p>
 
           <div className="btn-toolbar">
-            <a className="btn btn-primary me-3 border-0" href="#project-gallery" type="button"><i className="fa-solid fa-envelope me-3 border-0"></i>Email Me</a><a href="#contact" className="btn btn-secondary me-2" type="button"><i className="fa-solid fa-phone me-2"></i>Call Me</a>
+            <a className="btn btn-primary me-3 border-0" href="#project-gallery" type="button"><i className="fa-solid fa-envelope me-3 border-0"></i>Email Me</a><a href="#contact" className="btn btn-secondary me-2 border-0" type="button"><i className="fa-solid fa-phone me-2"></i>Call Me</a>
           </div>
         </div>
-        <div className="p-4 p-sm-5 bg-dark rounded-2 text-white">
+        <div className="p-4 p-sm-5 rounded-2 text-white" id="contact-section">
           <Form id="contact-form" noValidate validated={validated} onSubmit={handleFormSubmit}>
             <Row className="mb-sm-3">
               <Form.Group className="mb-3" as={Col} md="4" controlId="name">
@@ -101,7 +101,7 @@ function Contact() {
                 Please let me know what you want to discuss.
               </Form.Control.Feedback>
             </Form.Group>
-            <Button className="mt-3" variant="primary" type="submit" id="contactButton">
+            <Button className="mt-3 border-0" variant="primary" type="submit" id="contactButton">
               Submit
             </Button>
           </Form>

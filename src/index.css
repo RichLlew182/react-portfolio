@@ -23,6 +23,29 @@ header {
   border-radius: 4px;
 }
 
+.btn-primary {
+  --bs-btn-bg: #836FFF;
+  --bs-btn-border-color: #836FFF;
+  --bs-btn-hover-bg: #644dff;
+  --bs-btn-active-bg: #644dff;
+  --bs-btn-disabled-bg: #836FFF;
+  --bs-btn-disabled-border-color: #836FFF;
+}
+
+.btn-secondary {
+  --bs-btn-color: #000;
+  --bs-btn-bg: #F1DB4B;
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: #f4e371;
+  --bs-btn-hover-border-color: #f4e371;
+  --bs-btn-active-color: #000;
+  --bs-btn-active-bg: #f4e371;
+  --bs-btn-active-border-color: #f4e371;
+  --bs-btn-disabled-color: #000;
+  --bs-btn-disabled-bg: #F1DB4B;
+  --bs-btn-disabled-border-color: #F1DB4B;
+}
+
 .display-5,
 .display-4 {
   font-weight: 500 !important;
@@ -30,7 +53,7 @@ header {
 
 .card {
   -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   border: none;
 }
 
@@ -53,6 +76,17 @@ img.skill-icon {
 .list-group-item {
   background-color: #F0F3FF;
 }
+
+.form-control {
+  border-radius: 4px;
+  border: none;
+}
+
+#contact-section {
+  background-color: #211951;
+}
+
+
 
 /* Media Queries */
 
