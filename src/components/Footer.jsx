@@ -7,7 +7,7 @@ function Footer() {
 
 
 
-          <span className="mb-3 mb-sm-0 text-muted">© 2024 Richard Llewellyn</span>
+          <span className="mb-3 mb-sm-0">© 2024 Richard Llewellyn</span>
         </div>
 
         <ul className="nav col-sm-6 justify-content-end list-unstyled d-flex">

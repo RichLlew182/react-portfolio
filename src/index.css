@@ -24,6 +24,14 @@ header {
   background-color: #15F5BA;
 }
 
+.navbar-toggler {
+  border: none !important;
+  outline: none !important;
+  -webkit-box-shadow: none !Important;
+          box-shadow: none !Important;
+  ;
+}
+
 footer a {
   color: #836FFF;
 }
@@ -100,7 +108,7 @@ img.skill-icon {
 
 /* Media Queries */
 
-@media (max-width: 767px) {
+@media (max-width: 576px) {
 
   .display-4 {
     font-size: 28px;
