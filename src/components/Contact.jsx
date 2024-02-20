@@ -60,8 +60,16 @@ function Contact() {
   return (
     <>
       <section className="container py-5 px-5 px-sm-0">
+        <h2 className="mb-2 display-5 fw-bold">Contact</h2>
+        <div className="mb-5">
+          <p className="mb-4">
+            Need to get in touch? No problem! Feel free to reach out to me via email or phone, whichever floats your boat. Alternatively, you can drop me a line using the form below. Looking forward to hearing from you!</p>
+
+          <div className="btn-toolbar">
+            <a className="btn btn-primary me-2" href="#project-gallery" type="button"><i className="fa-solid fa-envelope me-2"></i>Email Me</a><a href="#contact" className="btn btn-secondary me-2" type="button"><i className="fa-solid fa-phone me-2"></i>Call Me</a>
+          </div>
+        </div>
         <div className="p-5 bg-dark rounded-2 text-white">
-          <h2 className="mb-4 display-5 fw-bold">Contact</h2>
           <Form id="contact-form" noValidate validated={validated} onSubmit={handleFormSubmit}>
             <Row className="mb-3">
               <Form.Group as={Col} md="4" controlId="name">
@@ -100,7 +108,7 @@ function Contact() {
           <div id="thankYouMessage" style={displayNone}><h3>Thanks for reaching out {formData.name}! I'll be in touch to discuss your project within 24 hours.</h3></div>
         </div>
 
-      </section>
+      </section >
     </>
   );
 }
