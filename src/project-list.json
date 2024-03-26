@@ -1,6 +1,15 @@
 [
   {
     "id": 1,
+    "title": "DevOpps",
+    "description": "A platform for developers which makes job searches and candidate sourcing hassle-free.",
+    "image":
+      "./assets/images/devopps.jpg",
+    "deployedURL": "https://devopps.app",
+    "repoLink": "https://github.com/RichLlew182/DevOpps"
+  },
+  {
+    "id": 2,
     "title": "The Pursuit of Hobbyness",
     "description": "An innovative web application designed to inspire users in discovering and embracing new hobbies.",
     "image":
@@ -9,7 +18,7 @@
     "repoLink": "https://github.com/RichLlew182/the-pursuit-of-hobbyness"
   },
   {
-  "id": 2,
+  "id": 3,
   "title": "Bootstrap Portfolio",
   "description": "My first attempt at a portfolio page utilising Bootstrap components and custom css.",
   "image":
@@ -18,7 +27,7 @@
   "repoLink": "https://github.com/RichLlew182/Bootstrap-Portfolio"
 },
 {
-  "id": 3,
+  "id": 4,
   "title": "Code Quiz",
   "description": "A timed coding quiz with multiple-choice questions.",
   "image":
@@ -27,7 +36,7 @@
   "repoLink": "https://github.com/RichLlew182/code-quiz"
 },
 {
-  "id": 4,
+  "id": 5,
   "title": "Weather Dashboard",
   "description": "An App that displays a 5 day weather forecast for any city using the OpenWeather API",
   "image":
@@ -36,21 +45,12 @@
   "repoLink": "https://github.com/RichLlew182/weather-dashboard"
 },
 {
-"id": 5,
+"id": 6,
 "title": "Work Day Scheduler",
 "description": "A simple calender application that allows a user to save events for each hour of the day.",
 "image":
   "./assets/images/work-day-scheduler.jpg",
 "deployedURL": "https://richllew182.github.io/work-day-scheduler/",
 "repoLink": "https://github.com/RichLlew182/work-day-scheduler"
-},
-{
-"id": 6,
-"title": "Random Password Generator",
-"description": "The app that generates a random password based on a user's selection of different characters.",
-"image":
-  "./assets/images/random-password-generator.jpg",
-"deployedURL": "https://richllew182.github.io/password-generator/",
-"repoLink": "https://github.com/RichLlew182/password-generator"
 }
 ]
