@@ -6,7 +6,9 @@ function Project({ title, image, description, deployedURL, repoLink }) {
   return (
     <div className='col-md-6 col-lg-4 my-3'>
       <Card className="h-100">
-        <Card.Img variant="top" src={image} />
+        <a href={deployedURL}>
+          <Card.Img variant="top" src={image} />
+          </a>
         <Card.Body className="p-4">
           <Card.Title>{title}</Card.Title>
           <Card.Text>
