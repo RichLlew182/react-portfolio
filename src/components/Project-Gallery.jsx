@@ -7,10 +7,13 @@ const fadeInAnimationVariants = {
     opacity: 0,
     y: 100,
   },
-  animate: {
+  animate: (index) => ({
     opacity: 1,
     y: 0,
-  }
+    transition: {
+      delay: 0.05 * index,
+    }
+  })
 }
 
 function ProjectGallery() {
@@ -24,8 +27,8 @@ function ProjectGallery() {
             {
 
               // map function that iterates over the objects in the project-list JSON file and passes in the props to the Project component
-              projectList.map((project) => (
-                <motion.div className='col-md-6 col-lg-4 my-3' key={project.id} variants={fadeInAnimationVariants} animate={"animate"} initial={"initial"} exit={{ opacity: 0 }}>
+              projectList.map((project, index) => (
+                <motion.div className='col-md-6 col-lg-4 my-3' key={project.id} variants={fadeInAnimationVariants} animate={"animate"} initial={"initial"} custom={index} exit={{ opacity: 0 }}>
                   <Project key={project.id} title={project.title} description={project.description} image={project.image} deployedURL={project.deployedURL} repoLink={project.repoLink} />
                 </motion.div>
               ))
