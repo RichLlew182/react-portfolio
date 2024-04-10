@@ -1,3 +1,27 @@
+import { motion } from 'framer-motion'
+
+const firstTextVariant = {
+  hidden: { opacity: 0, y: 20 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      delay: 0.5, // Delay before animation starts
+    },
+  },
+};
+
+const secondTextVariant = {
+  hidden: { opacity: 0, y: 20 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      delay: 1, // Delay before animation starts (more delayed than the first span)
+    },
+  },
+};
+
 function Jumbotron() {
   return (
     <>
@@ -5,7 +29,7 @@ function Jumbotron() {
         <div className="container py-0 py-sm-5 px-4 px-sm-0">
           <div className="row gx-5 d-flex flex-wrap align-items-center flex-column-reverse flex-md-row">
             <div className="col-md-6 col-lg-8 py-4  py-lg-0 d-flex justify-content-start">
-              <h1 className="display-4"><span className="d-block">Hi, I&apos;m Richard Llewellyn. </span><span className="d-block">A Front-End Developer and Designer.</span></h1>
+              <h1 className="display-4"><motion.span initial="hidden" animate="visible" variants={firstTextVariant} custom={0} className="d-block">Hi, I&apos;m Richard Llewellyn. </motion.span><motion.span initial="hidden" animate="visible" variants={secondTextVariant} custom={1} className="d-block">A Front-End Developer and Designer.</motion.span></h1>
 
             </div>
 
