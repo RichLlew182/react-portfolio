@@ -6,7 +6,7 @@ function Home() {
   return (
     <>
       <Jumbotron />
-      <motion.section initial={{ opacity: 0, y: 100 }} whileInView={{ opacity: 1, y: 0 }} transition={{ delay: 2 }} className="container py-5 px-4 px-sm-0 mt-lg-4">
+      <motion.section initial={{ opacity: 0, y: 100 }} whileInView={{ opacity: 1, y: 0 }} transition={{ delay: 1 }} className="container py-5 px-4 px-sm-0 mt-lg-4">
 
         <Row>
           <div className="col-lg-12 col-xl-6 mb-5 mb-xl-0">
