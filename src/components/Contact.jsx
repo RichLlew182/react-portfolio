@@ -64,7 +64,7 @@ function Contact() {
               Need to get in touch? No problem! Feel free to reach out to me via email or phone, whichever floats your boat. Alternatively, you can drop me a line using the adjacent form. Looking forward to hearing from you!</p>
 
             <div className="btn-toolbar">
-              <a className="btn btn-primary me-3 border-0" href="mailto:richard.lee.llewellyn@gmail.com" type="button"><i className="fa-solid fa-envelope me-3 border-0"></i>Email Me</a><a href="tel:01234 567 890" className="btn btn-secondary me-2 border-0" type="button"><i className="fa-solid fa-phone me-2"></i>Call Me</a>
+              <a className="btn btn-primary me-3 border-0" href="mailto:richard.lee.llewellyn@gmail.com" type="button"><i className="fa-solid fa-envelope me-3 border-0"></i>Email Me</a><a href="https://wa.me/07538820382" className="btn btn-secondary me-2 border-0" type="button" target="_blank"><i className="fa-brands fa-whatsapp me-2"></i>WhatsApp Me!</a>
 
             </div>
           </div>

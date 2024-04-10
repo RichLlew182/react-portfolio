@@ -20,7 +20,9 @@ h6,
   font-weight: 500;
 }
 
-header {
+header,
+#intro,
+.primary-green {
   background-color: #15F5BA;
 }
 
@@ -28,8 +30,7 @@ header {
   border: none !important;
   outline: none !important;
   -webkit-box-shadow: none !Important;
-          box-shadow: none !Important;
-  ;
+  box-shadow: none !Important;
 }
 
 footer a {

@@ -1,7 +1,6 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import Jumbotron from './Jumbotron';
 
 function Header() {
   return (
@@ -20,7 +19,7 @@ function Header() {
             </Navbar.Collapse>
           </Container>
         </Navbar>
-        <Jumbotron />
+        {/* <Jumbotron /> */}
       </header>
     </>
 

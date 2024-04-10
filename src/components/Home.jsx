@@ -1,8 +1,10 @@
 import Row from "react-bootstrap/Row";
+import Jumbotron from './Jumbotron'
 
 function Home() {
   return (
     <>
+      <Jumbotron />
       <section className="container py-5 px-4 px-sm-0 mt-lg-4">
 
         <Row>

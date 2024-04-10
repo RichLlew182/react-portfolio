@@ -2,20 +2,19 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
 // eslint-disable-next-line react/prop-types
-function Project({ title, image, description, deployedURL, repoLink }) {
+function Project({ title, image, description, deployedURL }) {
   return (
-    <div className='col-md-6 col-lg-4 my-3'>
+    <div>
       <Card className="h-100">
         <a href={deployedURL}>
           <Card.Img variant="top" src={image} />
-          </a>
+        </a>
         <Card.Body className="p-4">
           <Card.Title>{title}</Card.Title>
           <Card.Text>
             {description}
           </Card.Text>
           <Button href={deployedURL} target="_blank" className="me-3 border-0" variant="primary">View Project</Button>
-          <Button href={repoLink} target="_blank" className="border-0" variant="secondary">Repo Link</Button>
         </Card.Body>
       </Card>
     </div>
