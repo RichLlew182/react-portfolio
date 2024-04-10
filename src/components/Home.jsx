@@ -11,7 +11,7 @@ function Home() {
           <div className="col-lg-12 col-xl-6 mb-5 mb-xl-0">
             <div className="mb-4">
               <h2 className="mb-4 display-5">About Me</h2>
-              <p>My name is Richard, and I am a skilled Front-End Developer and designer based in the vibrant city of London. With a rich background spanning several years in the design industry, I am now eagerly seeking fresh challenges and exciting opportunities to leverage my expertise as a Front-End Developer.</p>
+              <p>My name is Richard, and I am a skilled Front-End Developer and designer based in London. With a rich background spanning several years in the design industry, I am now eagerly seeking fresh challenges and exciting opportunities to leverage my expertise as a Front-End Developer.</p>
               <p>
                 Whether you&apos;re a prospective collaborator, a fellow enthusiast in the tech community, or simply curious to learn more about my journey, I invite you to explore my work and discover the innovative solutions I bring to the table.
               </p>
