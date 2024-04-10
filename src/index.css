@@ -21,7 +21,8 @@ h6,
 }
 
 header,
-#intro {
+#intro,
+.primary-green {
   background-color: #15F5BA;
 }
 
@@ -30,7 +31,6 @@ header,
   outline: none !important;
   -webkit-box-shadow: none !Important;
   box-shadow: none !Important;
-  ;
 }
 
 footer a {
