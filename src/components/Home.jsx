@@ -1,11 +1,12 @@
 import Row from "react-bootstrap/Row";
 import Jumbotron from './Jumbotron'
+import { motion } from "framer-motion";
 
 function Home() {
   return (
     <>
       <Jumbotron />
-      <section className="container py-5 px-4 px-sm-0 mt-lg-4">
+      <motion.section initial={{ opacity: 0, y: 100 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 1 }} className="container py-5 px-4 px-sm-0 mt-lg-4">
 
         <Row>
           <div className="col-lg-12 col-xl-6 mb-5 mb-xl-0">
@@ -47,7 +48,7 @@ function Home() {
           </div>
         </Row>
 
-      </section >
+      </motion.section >
 
 
     </>
