@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card';
 // eslint-disable-next-line react/prop-types
 function Project({ title, image, description, deployedURL }) {
   return (
-    <div className='col-md-6 col-lg-4 my-3'>
+    <div>
       <Card className="h-100">
         <a href={deployedURL}>
           <Card.Img variant="top" src={image} />

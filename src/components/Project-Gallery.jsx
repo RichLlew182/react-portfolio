@@ -1,5 +1,17 @@
 import Project from "./Project";
 import projectList from '../project-list.json'
+import { motion } from "framer-motion";
+
+const fadeInAnimationVariants = {
+  initial: {
+    opacity: 0,
+    y: 100,
+  },
+  animate: {
+    opacity: 1,
+    y: 0,
+  }
+}
 
 function ProjectGallery() {
   return (
@@ -13,7 +25,9 @@ function ProjectGallery() {
 
               // map function that iterates over the objects in the project-list JSON file and passes in the props to the Project component
               projectList.map((project) => (
-                <Project key={project.id} title={project.title} description={project.description} image={project.image} deployedURL={project.deployedURL} repoLink={project.repoLink} />
+                <motion.div className='col-md-6 col-lg-4 my-3' key={project.id} variants={fadeInAnimationVariants} animate={"animate"} initial={"initial"} exit={{ opacity: 0 }}>
+                  <Project key={project.id} title={project.title} description={project.description} image={project.image} deployedURL={project.deployedURL} repoLink={project.repoLink} />
+                </motion.div>
               ))
             }
           </div>
