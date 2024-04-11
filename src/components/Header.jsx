@@ -12,9 +12,9 @@ function Header() {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
               <Nav>
-                <Nav.Link className="me-lg-2" href="./">Home</Nav.Link>
-                <Nav.Link className="me-lg-2" href="#project-gallery">Projects</Nav.Link>
-                <Nav.Link href="#contact">Contact</Nav.Link>
+                <Nav.Link className="me-lg-2" href="/">Home</Nav.Link>
+                <Nav.Link className="me-lg-2" href="/project-gallery">Projects</Nav.Link>
+                <Nav.Link href="/contact">Contact</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Container>
