@@ -26,8 +26,8 @@ Module 13 Challenge for EDX Bootcamp
 <!-- ABOUT THE PROJECT -->
 ## Description
 
-<a href="https://richllew182.github.io/react-portfolio/">
-    <img src="./public/assets/images/react-portfolio-screenshot.png" alt="Richard Llewellyn README Generator Screenshot">
+<a href="https://richllew.dev/">
+    <img src="./public/assets/images/react-portfolio-screenshot.png" alt="Richard Llewellyn React Portfolio">
   </a>
 
 
@@ -96,7 +96,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Richard Llewellyn - richard.lee.llewellyn@gmail.com 
 
-Project Link: [https://richllew182.github.io/react-portfolio/](https://richllew182.github.io/react-portfolio/)
+Project Link: [https://richllew.dev/](https://richllew.dev/)
 
 Project Repo Link: [https://github.com/RichLlew182/react-portfolio](https://github.com/RichLlew182/react-portfolio)
 
