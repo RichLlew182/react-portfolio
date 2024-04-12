@@ -1,6 +1,7 @@
 import Row from "react-bootstrap/Row";
 import Jumbotron from './Jumbotron'
 import { motion } from "framer-motion";
+import { Link } from 'react-router-dom';
 
 function Home() {
   return (
@@ -21,7 +22,7 @@ function Home() {
               </p>
             </div>
             <div className="btn-toolbar">
-              <a className="btn btn-primary me-3 border-0" href="/project-gallery" type="button">View Projects</a><a href="/contact" className="btn btn-secondary border-0 me-3" type="button">Get in Touch</a>
+              <Link className="btn btn-primary me-3 border-0" to="/project-gallery" type="button">View Projects</Link><Link to="/contact" className="btn btn-secondary border-0 me-3" type="button">Get in Touch</Link>
             </div>
           </div>
 
