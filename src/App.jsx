@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-      <Router>
+      <Router basename="/">
 
         <Header />
         <Routes>
