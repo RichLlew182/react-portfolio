@@ -6,7 +6,7 @@ const firstTextVariant = {
     opacity: 1,
     y: 0,
     transition: {
-      delay: .5, // Delay before animation starts
+      delay: .75, // Delay before animation starts
     },
   },
 };
@@ -17,7 +17,7 @@ const secondTextVariant = {
     opacity: 1,
     y: 0,
     transition: {
-      delay: .75, // Delay before animation starts (more delayed than the first span)
+      delay: 1, // Delay before animation starts (more delayed than the first span)
     },
   },
 };
@@ -33,7 +33,7 @@ function Jumbotron() {
 
             </div>
 
-            <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.25 }} className="col-md-6 col-lg-4 py-4  py-lg-0 d-flex justify-content-center">
+            <motion.div initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} className="col-md-6 col-lg-4 py-4  py-lg-0 d-flex justify-content-center">
               <img id="profile-picture" src="./assets/images/profile-picture.jpeg" className="img-fluid rounded-circle" alt="Profile Picture"></img>
             </motion.div>
           </div>

@@ -87,7 +87,7 @@ function Contact() {
             </div>
           </motion.div>
           <div className="col-lg-12 col-xl-8 mb-0 mb-xl-0">
-            <motion.div className="p-4 p-sm-5 rounded-2 text-white" id="contact-section" animate={{ opacity: 1, y: 0 }} initial={{ opacity: 0, y: 20 }} transition={{ delay: 0.7 }} exit={{ opacity: 0 }}>
+            <motion.div className="p-4 p-sm-5 rounded-2 text-white" id="contact-section" animate={{ opacity: 1, y: 0 }} initial={{ opacity: 0, y: 20 }} transition={{ delay: 1 }} exit={{ opacity: 0 }}>
               <Form id="contact-form" noValidate validated={validated} onSubmit={handleFormSubmit}>
                 <Row className="mb-sm-3">
                   <Form.Group className="mb-3" as={Col} md="4" controlId="name">
