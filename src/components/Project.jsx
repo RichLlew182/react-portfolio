@@ -6,7 +6,7 @@ function Project({ title, image, description, deployedURL }) {
   return (
     <div>
       <Card className="h-100">
-        <a href={deployedURL}>
+        <a href={deployedURL} target="_blank">
           <Card.Img variant="top" src={image} />
         </a>
         <Card.Body className="p-4">
