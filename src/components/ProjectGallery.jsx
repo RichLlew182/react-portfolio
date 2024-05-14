@@ -1,5 +1,5 @@
 import ProjectCard from "./ProjectCard";
-import projectList from '../project-list.json'
+import projectList from "../../data/project-list.json"
 import { motion } from "framer-motion";
 
 const fadeInAnimationVariants = {

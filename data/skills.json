@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "title": "HTML5",
+    "alt": "HTML 5 Icon",
+    "src": "./assets/icons/html-icon.png"
+  },
+  {
+    "id": 2,
+    "title": "CSS3",
+    "alt": "HTML 3 Icon",
+    "src": "./assets/icons/css-icon.png"
+  }
+]
