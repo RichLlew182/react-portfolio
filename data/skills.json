@@ -12,57 +12,69 @@
     "icon": "./assets/icons/css-icon.png"
   },
   {
-    "id": 2,
-    "title": "CSS3",
-    "alt": "CSS 3 Icon",
-    "icon": "./assets/icons/css-icon.png"
+    "id": 3,
+    "title": "JavaScript",
+    "alt": "JavaScript Icon",
+    "icon": "./assets/icons/js-icon.png"
   },
   {
-    "id": 2,
-    "title": "CSS3",
-    "alt": "CSS 3 Icon",
-    "icon": "./assets/icons/css-icon.png"
+    "id": 4,
+    "title": "React",
+    "alt": "React Icon",
+    "icon": "./assets/icons/react-icon.png"
   },
   {
-    "id": 2,
-    "title": "CSS3",
-    "alt": "CSS 3 Icon",
-    "icon": "./assets/icons/css-icon.png"
+    "id": 5,
+    "title": "Tailwind CSS",
+    "alt": "Tailwind CSS Icon",
+    "icon": "./assets/icons/tailwind-icon.png"
   },
   {
-    "id": 2,
-    "title": "CSS3",
-    "alt": "CSS 3 Icon",
-    "icon": "./assets/icons/css-icon.png"
+    "id": 6,
+    "title": "Bootstrap",
+    "alt": "Bootstrap Icon",
+    "icon": "./assets/icons/bootstrap-icon.png"
   },
   {
-    "id": 2,
-    "title": "CSS3",
-    "alt": "CSS 3 Icon",
-    "icon": "./assets/icons/css-icon.png"
+    "id": 7,
+    "title": "jQuery",
+    "alt": "jQuery Icon",
+    "icon": "./assets/icons/jquery-icon.png"
   },
   {
-    "id": 2,
-    "title": "CSS3",
-    "alt": "CSS 3 Icon",
-    "icon": "./assets/icons/css-icon.png"
+    "id": 8,
+    "title": "Node.js",
+    "alt": "Node.js Icon",
+    "icon": "./assets/icons/node-icon.png"
   },
   {
-    "id": 2,
-    "title": "CSS3",
-    "alt": "CSS 3 Icon",
-    "icon": "./assets/icons/css-icon.png"
+    "id": 9,
+    "title": "Git",
+    "alt": "Git Icon",
+    "icon": "./assets/icons/git-icon.png"
   },
   {
-    "id": 2,
-    "title": "CSS3",
-    "alt": "CSS 3 Icon",
-    "icon": "./assets/icons/css-icon.png"
+    "id": 10,
+    "title": "Figma",
+    "alt": "Figma Icon",
+    "icon": "./assets/icons/figma-icon.png"
   },
   {
-    "id": 2,
-    "title": "CSS3",
-    "alt": "CSS 3 Icon",
-    "icon": "./assets/icons/css-icon.png"
+    "id": 11,
+    "title": "Photoshop",
+    "alt": "Photoshop Icon",
+    "icon": "./assets/icons/photoshop-icon.png"
+  },
+  {
+    "id": 12,
+    "title": "Illustrator",
+    "alt": "Illustrator Icon",
+    "icon": "./assets/icons/illustrator-icon.png"
+  },
+  {
+    "id": 13,
+    "title": "After Effects",
+    "alt": "After Effects Icon",
+    "icon": "./assets/icons/after-effects-icon.png"
   }
 ]
