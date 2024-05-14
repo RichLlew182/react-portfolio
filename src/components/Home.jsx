@@ -29,7 +29,7 @@ function Home() {
       opacity: 1,
       y: 0,
       transition: {
-        delay: 1.25 + 0.1 * index,
+        delay: 1.25 + 0.05 * index,
       }
     })
   }
