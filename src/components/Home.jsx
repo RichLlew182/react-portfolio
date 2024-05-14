@@ -17,9 +17,6 @@ function Home() {
               <p>
                 Whether you&apos;re a prospective collaborator, a fellow enthusiast in the tech community, or simply curious to learn more about my journey, I invite you to explore my work and discover the innovative solutions I bring to the table.
               </p>
-              <p>
-                If you have any inquiries, project proposals, or just want to connect, don&apos;t hesitate to reach out. I&apos;m always eager to engage in meaningful conversations and explore potential collaborations. Let&apos;s create something remarkable together.
-              </p>
             </div>
             <div className="btn-toolbar">
               <Link className="btn btn-primary me-3 border-0" to="/project-gallery" type="button">View Projects</Link><Link to="/contact" className="btn btn-secondary border-0 me-3" type="button">Get in Touch</Link>
