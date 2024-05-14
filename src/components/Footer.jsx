@@ -18,7 +18,7 @@ function Footer() {
               className="fa-brands fa-github me-2"></i>Github</a></li>
           </motion.div>
           <motion.div initial={{ opacity: 0, y: -40 }} whileInView={{ opacity: 1, y: 0 }} transition={{ delay: .3 }}>
-            <li className="ms-3"><a className="text-decoration-none" target="_blank" href="https://www.linkedin.com/in/richard-llewellyn-9073862b/"><i
+            <li className="ms-3"><a className="text-decoration-none" target="_blank" href="https://www.linkedin.com/in/richard-lee-llewellyn"><i
               className="fa-brands fa-linkedin  me-2"></i>Linkedin</a></li>
           </motion.div >
           <motion.div initial={{ opacity: 0, y: -40 }} whileInView={{ opacity: 1, y: 0 }} transition={{ delay: .4 }}>  <li className="ms-3"><a className="text-decoration-none" target="_blank" href="./assets/files/richard-llewellyn-cv.pdf"><i className="fa-solid fa-file-lines me-2"></i>Resume</a></li></motion.div>
