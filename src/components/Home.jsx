@@ -1,9 +1,26 @@
 import Row from "react-bootstrap/Row";
 import Jumbotron from './Jumbotron'
 import { motion } from "framer-motion";
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 function Home() {
+
+  const navigate = useNavigate()
+
+  const handleProjectsClick = (e) => {
+    e.preventDefault();
+    navigate('/projects');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  const handleContactClick = (e) => {
+    e.preventDefault();
+    navigate('/contact');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+
+
   return (
     <>
       <Jumbotron />
@@ -12,20 +29,20 @@ function Home() {
         <Row>
           <div className="col-lg-12 col-xl-6 mb-5 mb-xl-0">
             <div className="mb-4">
-              <h2 className="mb-4 display-5">About Me</h2>
+              <h2 className="mb-4 display-5">About me</h2>
               <p>My name is Richard, and I am a skilled Front-End Developer and designer based in London. With a rich background spanning several years in the design industry, I am now eagerly seeking fresh challenges and exciting opportunities to leverage my expertise as a Front-End Developer.</p>
               <p>
                 Whether you&apos;re a prospective collaborator, a fellow enthusiast in the tech community, or simply curious to learn more about my journey, I invite you to explore my work and discover the innovative solutions I bring to the table.
               </p>
             </div>
             <div className="btn-toolbar">
-              <Link className="btn btn-primary me-3 border-0" to="/projects" type="button">View Projects</Link><Link to="/contact" className="btn btn-secondary border-0 me-3" type="button">Get in Touch</Link>
+              <Link className="btn btn-primary me-3 border-0" onClick={handleProjectsClick} type="button">View Projects</Link><Link className="btn btn-secondary border-0 me-3" onClick={handleContactClick} type="button">Get in Touch</Link>
             </div>
           </div>
 
           <div className="col-lg-12 col-xl-6">
             <div className="h-100 ">
-              <h2 className="mb-4 display-5">My Skills So Far...</h2>
+              <h2 className="mb-4 display-5">My skills so far...</h2>
               <ul className="list-group list-group-horizontal d-flex flex-wrap gap-3">
                 <li className="list-group-item d-flex py-2 align-items-center rounded border-0"><img alt="HTML 5 Icon" className="skill-icon" src="./assets/icons/html-icon.png"></img>HTML5</li>
                 <li className="list-group-item d-flex py-2 align-items-center rounded border-0"><img alt="CSS 3 Icon" className="skill-icon" src="./assets/icons/css-icon.png"></img>CSS3</li>
