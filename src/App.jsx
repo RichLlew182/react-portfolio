@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import Home from './components/Home'
-import ProjectGallery from './components/Project-Gallery'
+import ProjectGallery from './components/ProjectGallery'
 import Contact from './components/Contact'
 
 
@@ -18,7 +18,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/project-gallery" element={<ProjectGallery />} />
+          <Route path="/projects" element={<ProjectGallery />} />
         </Routes>
 
       </Router>

@@ -16,8 +16,8 @@ h5,
 .h5,
 h6,
 .h6 {
-  font-family: 'Epilogue';
-  font-weight: 500;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 600;
 }
 
 header,
@@ -31,6 +31,11 @@ header,
   outline: none !important;
   -webkit-box-shadow: none !Important;
   box-shadow: none !Important;
+}
+
+.navbar-brand {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 500;
 }
 
 footer a {
@@ -67,7 +72,7 @@ footer a {
 
 .display-5,
 .display-4 {
-  font-weight: 500 !important;
+  font-weight: 600 !important;
 }
 
 .card {
@@ -82,6 +87,17 @@ footer a {
   aspect-ratio: 16 / 10;
   -o-object-fit: cover;
   object-fit: cover;
+  cursor: pointer;
+}
+
+span.badge.bg-info {
+  font-weight: normal;
+  font-family: 'Plus Jakarta Sans';
+  background: #F0F3FF !important;
+  color: black !important;
+  margin-right: 4px;
+  border-radius: 5px;
+  padding: 7px 15px;
 }
 
 img.skill-icon {

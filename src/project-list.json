@@ -3,8 +3,13 @@
     "id": 1,
     "title": "DevOpps",
     "description": "A platform for developers which makes job searches and candidate sourcing hassle-free.",
-    "image":
-      "./assets/images/devopps.jpg",
+    "tech": [
+      "React",
+      "APIs",
+      "Tailwind CSS"
+    ],
+    "image": "./assets/images/devopps.png",
+    "imageAltText": "iMac mockup of Devopps app.",
     "deployedURL": "https://devopps.app",
     "repoLink": "https://github.com/RichLlew182/DevOpps"
   },
@@ -12,45 +17,70 @@
     "id": 2,
     "title": "The Pursuit of Hobbyness",
     "description": "An innovative web application designed to inspire users in discovering and embracing new hobbies.",
-    "image":
-      "./assets/images/hobbies.jpg",
+    "tech": [
+      "Javascript",
+      "APIs",
+      "Bootstrap"
+    ],
+    "image": "./assets/images/hobbies.png",
+    "imageAltText": "Multiple device mockup of Pursuit of happyness app.",
     "deployedURL": "https://richllew182.github.io/the-pursuit-of-hobbyness/",
     "repoLink": "https://github.com/RichLlew182/the-pursuit-of-hobbyness"
   },
   {
-  "id": 3,
-  "title": "Bootstrap Portfolio",
-  "description": "My first attempt at a portfolio page utilising Bootstrap components and custom css.",
-  "image":
-    "./assets/images/bootstrap-portfolio.jpg",
-  "deployedURL": "https://richllew182.github.io/Bootstrap-Portfolio/",
-  "repoLink": "https://github.com/RichLlew182/Bootstrap-Portfolio"
-},
-{
-  "id": 4,
-  "title": "Code Quiz",
-  "description": "A timed coding quiz with multiple-choice questions.",
-  "image":
-    "./assets/images/coding-quiz.jpg",
-  "deployedURL": "https://richllew182.github.io/code-quiz/",
-  "repoLink": "https://github.com/RichLlew182/code-quiz"
-},
-{
-  "id": 5,
-  "title": "Weather Dashboard",
-  "description": "An App that displays a 5 day weather forecast for any city using the OpenWeather API",
-  "image":
-    "./assets/images/weather-dashboard.jpg",
-  "deployedURL": "https://richllew182.github.io/weather-dashboard/",
-  "repoLink": "https://github.com/RichLlew182/weather-dashboard"
-},
-{
-"id": 6,
-"title": "Work Day Scheduler",
-"description": "A simple calender application that allows a user to save events for each hour of the day.",
-"image":
-  "./assets/images/work-day-scheduler.jpg",
-"deployedURL": "https://richllew182.github.io/work-day-scheduler/",
-"repoLink": "https://github.com/RichLlew182/work-day-scheduler"
-}
+    "id": 3,
+    "title": "Webdadi.com",
+    "description": "Website design for an online platform offering both CRM solutions and website templates.",
+    "tech": [
+      "Figma",
+      "Custom CSS",
+      "CMS"
+    ],
+    "image": "./assets/images/webdadi.png",
+    "imageAltText": "Macbook mockup of Webdadi.com website.",
+    "deployedURL": "https://www.webdadi.com/",
+    "repoLink": ""
+  },
+  {
+    "id": 4,
+    "title": "Bootstrap Portfolio",
+    "description": "My first attempt at a portfolio page utilising Bootstrap components and custom css.",
+    "tech": [
+      "HTML",
+      "Bootstrap",
+      "Custom CSS"
+    ],
+    "image": "./assets/images/bootstrap-portfolio.png",
+    "imageAltText": "iMac mockup of Boostrap Porfollio project.",
+    "deployedURL": "https://richllew182.github.io/Bootstrap-Portfolio/",
+    "repoLink": "https://github.com/RichLlew182/Bootstrap-Portfolio"
+  },
+  {
+    "id": 5,
+    "title": "Weather Dashboard",
+    "description": "An App that displays a 5 day weather forecast for any city using the OpenWeather API",
+    "tech": [
+      "APIs",
+      "Day.js",
+      "jQuery"
+    ],
+    "image": "./assets/images/weather-dashboard.png",
+    "imageAltText": "",
+    "deployedURL": "https://richllew182.github.io/weather-dashboard/",
+    "repoLink": "https://github.com/RichLlew182/weather-dashboard"
+  },
+  {
+    "id": 6,
+    "title": "Code Quiz",
+    "description": "A timed coding quiz with multiple-choice questions and high-scores.",
+    "tech": [
+      "HTML",
+      "Javascript",
+      "Local Storage"
+    ],
+    "image": "./assets/images/coding-quiz.png",
+    "imageAltText": "iPhone mockup of Coding Quiz app.",
+    "deployedURL": "https://richllew182.github.io/code-quiz/",
+    "repoLink": "https://github.com/RichLlew182/code-quiz"
+  }
 ]
