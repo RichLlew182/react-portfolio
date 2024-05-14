@@ -14,7 +14,7 @@ function Header() {
             <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
               <Nav>
                 <Nav.Link as={Link} className="me-lg-2" to="/">Home</Nav.Link>
-                <Nav.Link as={Link} className="me-lg-2" to="/project-gallery">Projects</Nav.Link>
+                <Nav.Link as={Link} className="me-lg-2" to="/projects">Projects</Nav.Link>
                 <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
               </Nav>
             </Navbar.Collapse>
