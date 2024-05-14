@@ -3,12 +3,66 @@
     "id": 1,
     "title": "HTML5",
     "alt": "HTML 5 Icon",
-    "src": "./assets/icons/html-icon.png"
+    "icon": "./assets/icons/html-icon.png"
   },
   {
     "id": 2,
     "title": "CSS3",
-    "alt": "HTML 3 Icon",
-    "src": "./assets/icons/css-icon.png"
+    "alt": "CSS 3 Icon",
+    "icon": "./assets/icons/css-icon.png"
+  },
+  {
+    "id": 2,
+    "title": "CSS3",
+    "alt": "CSS 3 Icon",
+    "icon": "./assets/icons/css-icon.png"
+  },
+  {
+    "id": 2,
+    "title": "CSS3",
+    "alt": "CSS 3 Icon",
+    "icon": "./assets/icons/css-icon.png"
+  },
+  {
+    "id": 2,
+    "title": "CSS3",
+    "alt": "CSS 3 Icon",
+    "icon": "./assets/icons/css-icon.png"
+  },
+  {
+    "id": 2,
+    "title": "CSS3",
+    "alt": "CSS 3 Icon",
+    "icon": "./assets/icons/css-icon.png"
+  },
+  {
+    "id": 2,
+    "title": "CSS3",
+    "alt": "CSS 3 Icon",
+    "icon": "./assets/icons/css-icon.png"
+  },
+  {
+    "id": 2,
+    "title": "CSS3",
+    "alt": "CSS 3 Icon",
+    "icon": "./assets/icons/css-icon.png"
+  },
+  {
+    "id": 2,
+    "title": "CSS3",
+    "alt": "CSS 3 Icon",
+    "icon": "./assets/icons/css-icon.png"
+  },
+  {
+    "id": 2,
+    "title": "CSS3",
+    "alt": "CSS 3 Icon",
+    "icon": "./assets/icons/css-icon.png"
+  },
+  {
+    "id": 2,
+    "title": "CSS3",
+    "alt": "CSS 3 Icon",
+    "icon": "./assets/icons/css-icon.png"
   }
 ]
