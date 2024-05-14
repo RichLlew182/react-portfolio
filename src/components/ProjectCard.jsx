@@ -2,7 +2,7 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
 // eslint-disable-next-line react/prop-types
-function Project({ title, image, description, deployedURL }) {
+function ProjectCard({ title, image, description, deployedURL }) {
   return (
     <div>
       <Card className="h-100">
@@ -21,5 +21,5 @@ function Project({ title, image, description, deployedURL }) {
   );
 }
 
-export default Project;
+export default ProjectCard;
 
