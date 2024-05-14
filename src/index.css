@@ -82,6 +82,17 @@ footer a {
   aspect-ratio: 16 / 10;
   -o-object-fit: cover;
   object-fit: cover;
+  cursor: pointer;
+}
+
+span.badge.bg-info {
+  font-weight: normal;
+  font-family: 'Plus Jakarta Sans';
+  background: #F0F3FF !important;
+  color: black !important;
+  margin-right: 4px;
+  border-radius: 5px;
+  padding: 7px 15px;
 }
 
 img.skill-icon {
