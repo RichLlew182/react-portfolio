@@ -64,7 +64,7 @@
       "Day.js",
       "jQuery"
     ],
-    "image": "./assets/images/weather-dashboard.jpg",
+    "image": "./assets/images/weather-dashboard.png",
     "imageAltText": "",
     "deployedURL": "https://richllew182.github.io/weather-dashboard/",
     "repoLink": "https://github.com/RichLlew182/weather-dashboard"

@@ -7,7 +7,7 @@ function Header() {
   return (
     <>
       <header>
-        <Navbar sticky="top" collapseOnSelect expand="lg" className="py-3 bg-white">
+        <Navbar collapseOnSelect expand="lg" className="py-3 bg-white">
           <Container className="px-4 px-sm-0">
             <Navbar.Brand as={Link} to="/">richllew.dev</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />

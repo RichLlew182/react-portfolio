@@ -59,12 +59,14 @@ function Contact() {
       <section className="container py-5 px-4 px-sm-0 mt-lg-4">
         <Row>
           <div className="col-lg-12 col-xl-4 mb-5 mb-xl-0">
-            <h2 className="mb-2 display-5">Contact</h2>
+            <h2 className="mb-4 display-5">Contact</h2>
 
-            <p className="mb-4">
-              Need to get in touch? No problem! Feel free to reach out to me via email or phone, whichever floats your boat. Alternatively, you can drop me a line using the adjacent form. Looking forward to hearing from you!</p>
+            <p>
+              Need to get in touch? No problem! Feel free to reach out to me via email or phone, whichever floats your boat. Alternatively, you can drop me a line using the adjacent form.</p>
+            <p>
+              Looking forward to hearing from you!</p>
 
-            <div className="btn-toolbar">
+            <div className="btn-toolbar mt-4">
               <a className="btn btn-primary me-3 border-0" href="mailto:richard.lee.llewellyn@gmail.com" type="button"><i className="fa-solid fa-envelope me-3 border-0"></i>Email Me</a><a href="https://wa.me/07538820382" className="btn btn-secondary me-2 border-0" type="button" target="_blank"><i className="fa-brands fa-whatsapp me-2"></i>WhatsApp Me!</a>
 
             </div>
