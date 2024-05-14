@@ -56,10 +56,24 @@ function Contact() {
 
   return (
     <>
+
+      <section id="intro">
+        <div className="container py-0 py-sm-5 px-4 px-sm-0">
+          <div className="row gx-5 d-flex flex-wrap align-items-center flex-column-reverse flex-md-row">
+            <div className="col-md-6 col-lg-8 py-4  py-lg-0 d-flex justify-content-start">
+              <motion.h1 className="display-4" initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.25 }}>Contact me</motion.h1>
+
+            </div>
+
+
+          </div>
+        </div>
+      </section>
+
       <section className="container py-5 px-4 px-sm-0 mt-lg-4">
         <Row>
-          <div className="col-lg-12 col-xl-4 mb-5 mb-xl-0">
-            <h2 className="mb-4 display-5">Contact</h2>
+          <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.33 }} className="col-lg-12 col-xl-4 mb-5 mb-xl-0">
+
 
             <p>
               Need to get in touch? No problem! Feel free to reach out to me via email or phone, whichever floats your boat. Alternatively, you can drop me a line using the adjacent form.</p>
@@ -67,12 +81,13 @@ function Contact() {
               Looking forward to hearing from you!</p>
 
             <div className="btn-toolbar mt-4">
-              <a className="btn btn-primary me-3 border-0" href="mailto:richard.lee.llewellyn@gmail.com" type="button"><i className="fa-solid fa-envelope me-3 border-0"></i>Email Me</a><a href="https://wa.me/07538820382" className="btn btn-secondary me-2 border-0" type="button" target="_blank"><i className="fa-brands fa-whatsapp me-2"></i>WhatsApp Me!</a>
+              <motion.a initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: .5 }} className="btn btn-primary me-3 border-0" href="mailto:richard.lee.llewellyn@gmail.com" type="button"><i className="fa-solid fa-envelope me-3 border-0"></i>Email Me</motion.a>
+              <motion.a initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: .6 }} href="https://wa.me/07538820382" className="btn btn-secondary me-2 border-0" type="button" target="_blank"><i className="fa-brands fa-whatsapp me-2"></i>WhatsApp Me!</motion.a>
 
             </div>
-          </div>
+          </motion.div>
           <div className="col-lg-12 col-xl-8 mb-0 mb-xl-0">
-            <motion.div className="p-4 p-sm-5 rounded-2 text-white" id="contact-section" animate={{ opacity: 1, y: 0 }} initial={{ opacity: 0, y: 100 }} exit={{ opacity: 0 }}>
+            <motion.div className="p-4 p-sm-5 rounded-2 text-white" id="contact-section" animate={{ opacity: 1, y: 0 }} initial={{ opacity: 0, y: 20 }} transition={{ delay: 1 }} exit={{ opacity: 0 }}>
               <Form id="contact-form" noValidate validated={validated} onSubmit={handleFormSubmit}>
                 <Row className="mb-sm-3">
                   <Form.Group className="mb-3" as={Col} md="4" controlId="name">
@@ -108,7 +123,7 @@ function Contact() {
                   Submit
                 </Button>
               </Form>
-              <div id="thankYouMessage" style={displayNone}><h3>Thanks for reaching out {formData.name}! I&apos;ll be in touch to discuss your project within 24 hours.</h3></div>
+              <div id="thankYouMessage" style={displayNone}><h3><span className="d-block mb-4">Thanks for reaching out {formData.name}! </span><span className="d-block">I&apos;ll be in touch to discuss your project within 24 hours.</span></h3></div>
             </motion.div>
           </div>
         </Row>
