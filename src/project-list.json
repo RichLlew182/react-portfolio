@@ -4,6 +4,7 @@
     "title": "DevOpps",
     "description": "A platform for developers which makes job searches and candidate sourcing hassle-free.",
     "image": "./assets/images/devopps.png",
+    "imageAltText": "iMac mockup of Devopps app.",
     "deployedURL": "https://devopps.app",
     "repoLink": "https://github.com/RichLlew182/DevOpps"
   },
@@ -12,6 +13,7 @@
     "title": "The Pursuit of Hobbyness",
     "description": "An innovative web application designed to inspire users in discovering and embracing new hobbies.",
     "image": "./assets/images/hobbies.png",
+    "imageAltText": "Multiple device mockup of Pursuit of happyness app.",
     "deployedURL": "https://richllew182.github.io/the-pursuit-of-hobbyness/",
     "repoLink": "https://github.com/RichLlew182/the-pursuit-of-hobbyness"
   },
@@ -20,6 +22,7 @@
     "title": "Webdadi.com",
     "description": "Website design for an online platform offering both CRM solutions and website templates.",
     "image": "./assets/images/webdadi.png",
+    "imageAltText": "Macbook mockup of Webdadi.com website.",
     "deployedURL": "https://www.webdadi.com/",
     "repoLink": ""
   },
@@ -28,6 +31,7 @@
     "title": "Bootstrap Portfolio",
     "description": "My first attempt at a portfolio page utilising Bootstrap components and custom css.",
     "image": "./assets/images/bootstrap-portfolio.png",
+    "imageAltText": "iMac mockup of Boostrap Porfollio project.",
     "deployedURL": "https://richllew182.github.io/Bootstrap-Portfolio/",
     "repoLink": "https://github.com/RichLlew182/Bootstrap-Portfolio"
   },
@@ -36,6 +40,7 @@
     "title": "Code Quiz",
     "description": "A timed coding quiz with multiple-choice questions.",
     "image": "./assets/images/coding-quiz.jpg",
+    "imageAltText": "",
     "deployedURL": "https://richllew182.github.io/code-quiz/",
     "repoLink": "https://github.com/RichLlew182/code-quiz"
   },
@@ -44,6 +49,7 @@
     "title": "Weather Dashboard",
     "description": "An App that displays a 5 day weather forecast for any city using the OpenWeather API",
     "image": "./assets/images/weather-dashboard.jpg",
+    "imageAltText": "",
     "deployedURL": "https://richllew182.github.io/weather-dashboard/",
     "repoLink": "https://github.com/RichLlew182/weather-dashboard"
   },
@@ -52,6 +58,7 @@
     "title": "Work Day Scheduler",
     "description": "A simple calender application that allows a user to save events for each hour of the day.",
     "image": "./assets/images/work-day-scheduler.jpg",
+    "imageAltText": "",
     "deployedURL": "https://richllew182.github.io/work-day-scheduler/",
     "repoLink": "https://github.com/RichLlew182/work-day-scheduler"
   }
