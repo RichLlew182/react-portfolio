@@ -3,7 +3,7 @@
     "id": 1,
     "title": "DevOpps",
     "description": "A platform for developers which makes job searches and candidate sourcing hassle-free.",
-    "image": "./assets/images/devopps.jpg",
+    "image": "./assets/images/devopps.png",
     "deployedURL": "https://devopps.app",
     "repoLink": "https://github.com/RichLlew182/DevOpps"
   },
@@ -11,7 +11,7 @@
     "id": 2,
     "title": "The Pursuit of Hobbyness",
     "description": "An innovative web application designed to inspire users in discovering and embracing new hobbies.",
-    "image": "./assets/images/hobbies.jpg",
+    "image": "./assets/images/hobbies.png",
     "deployedURL": "https://richllew182.github.io/the-pursuit-of-hobbyness/",
     "repoLink": "https://github.com/RichLlew182/the-pursuit-of-hobbyness"
   },
@@ -19,7 +19,7 @@
     "id": 3,
     "title": "Webdadi.com",
     "description": "Website design for an online platform offering both CRM solutions and website templates.",
-    "image": "./assets/images/webdadi.jpg",
+    "image": "./assets/images/webdadi.png",
     "deployedURL": "https://www.webdadi.com/",
     "repoLink": ""
   },
@@ -27,7 +27,7 @@
     "id": 4,
     "title": "Bootstrap Portfolio",
     "description": "My first attempt at a portfolio page utilising Bootstrap components and custom css.",
-    "image": "./assets/images/bootstrap-portfolio.jpg",
+    "image": "./assets/images/bootstrap-portfolio.png",
     "deployedURL": "https://richllew182.github.io/Bootstrap-Portfolio/",
     "repoLink": "https://github.com/RichLlew182/Bootstrap-Portfolio"
   },
