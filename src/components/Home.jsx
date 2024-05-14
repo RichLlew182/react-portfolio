@@ -19,7 +19,7 @@ function Home() {
               </p>
             </div>
             <div className="btn-toolbar">
-              <Link className="btn btn-primary me-3 border-0" to="/project-gallery" type="button">View Projects</Link><Link to="/contact" className="btn btn-secondary border-0 me-3" type="button">Get in Touch</Link>
+              <Link className="btn btn-primary me-3 border-0" to="/projects" type="button">View Projects</Link><Link to="/contact" className="btn btn-secondary border-0 me-3" type="button">Get in Touch</Link>
             </div>
           </div>
 
