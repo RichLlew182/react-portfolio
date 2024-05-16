@@ -127,7 +127,7 @@ function Contact() {
                   </Form.Group>
                   <Form.Group className="mb-3" as={Col} md="4" controlId="user_number">
                     <Form.Label>Contact Number</Form.Label>
-                    <Form.Control type="tel" minLength={7} name="user_number" placeholder="+44 01234 567 890" pattern="[0-9]*" onChange={handleInputChange} required />
+                    <Form.Control type="tel" minLength={7} name="user_number" placeholder="+44 01234 567 890" pattern="\+?[0-9]*" onChange={handleInputChange} required />
                     <Form.Control.Feedback type="invalid">
                       Please provide a valid contact number.
                     </Form.Control.Feedback>
