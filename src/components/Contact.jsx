@@ -5,20 +5,62 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import { motion } from 'framer-motion';
 
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+
+
 function Contact() {
+
+  const form = useRef();
+
+  const [validated, setValidated] = useState(false);
 
   const contactForm = document.querySelector('#contact-form');
   const thankYouMessage = document.querySelector('#thankYouMessage');
   const displayNone = { display: 'none' }
   const displayBlock = { display: 'block' }
 
-  const [validated, setValidated] = useState(false);
+  const handleFormSubmit = (e) => {
+    e.preventDefault();
+
+    const myForm = e.currentTarget;
+
+    // checks if input fields have passed validation
+    if (myForm.checkValidity() === false) {
+      e.preventDefault();
+      e.stopPropagation();
+    } else {
+      // displays thank you message if all fields have been validated and hides form
+      thankYouMessage.style = { displayBlock }
+      contactForm.style.display = 'none';
+    }
+
+    // Updating the forms validated state to be true
+    setValidated(true);
+
+    emailjs
+      .sendForm('service_iexlgqf', 'template_fpprsue', form.current, {
+        publicKey: 'QyHKUwnZacZj_blyQ',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+
+    // setValidated(true);
+  };
+
+
 
   // Setting initial state to an object
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
+    user_name: '',
+    user_email: '',
+    user_number: '',
     message: ''
   });
 
@@ -31,28 +73,30 @@ function Contact() {
       ...formData,
       [name]: value,
     });
+
   };
 
-  const handleFormSubmit = (event) => {
+  // const handleFormSubmit = (event) => {
 
-    event.preventDefault();
+  //   event.preventDefault();
 
-    const form = event.currentTarget;
+  //   const form = event.currentTarget;
 
-    // checks if input fields have passed validation
-    if (form.checkValidity() === false) {
-      event.preventDefault();
-      event.stopPropagation();
-    } else {
-      // displays thank you message if all fields have been validated and hides form
-      thankYouMessage.style = { displayBlock }
-      contactForm.style.display = 'none';
-    }
+  //   // checks if input fields have passed validation
+  //   if (form.checkValidity() === false) {
+  //     event.preventDefault();
+  //     event.stopPropagation();
+  //   } else {
+  //     // displays thank you message if all fields have been validated and hides form
+  //     thankYouMessage.style = { displayBlock }
+  //     contactForm.style.display = 'none';
+  //   }
 
-    // Updating the forms validated state to be true
-    setValidated(true);
+  //   // Updating the forms validated state to be true
+  //   setValidated(true);
+  //   console.log(formData)
 
-  }
+  // }
 
   return (
     <>
@@ -88,25 +132,25 @@ function Contact() {
           </motion.div>
           <div className="col-lg-12 col-xl-8 mb-0 mb-xl-0">
             <motion.div className="p-4 p-sm-5 rounded-2 text-white" id="contact-section" animate={{ opacity: 1, y: 0 }} initial={{ opacity: 0, y: 20 }} transition={{ delay: 1 }} exit={{ opacity: 0 }}>
-              <Form id="contact-form" noValidate validated={validated} onSubmit={handleFormSubmit}>
+              <Form ref={form} id="contact-form" noValidate validated={validated} onSubmit={handleFormSubmit}>
                 <Row className="mb-sm-3">
-                  <Form.Group className="mb-3" as={Col} md="4" controlId="name">
+                  <Form.Group className="mb-3" as={Col} md="4" controlId="user_name">
                     <Form.Label>Name</Form.Label>
-                    <Form.Control type="text" name="name" placeholder="Name" value={formData.name} onChange={handleInputChange} required />
+                    <Form.Control type="text" name="user_name" placeholder="Name" value={formData.name} onChange={handleInputChange} required />
                     <Form.Control.Feedback type="invalid">
                       Please provide your name.
                     </Form.Control.Feedback>
                   </Form.Group>
-                  <Form.Group className="mb-3" as={Col} md="4" controlId="email">
+                  <Form.Group className="mb-3" as={Col} md="4" controlId="user_email">
                     <Form.Label>Email address</Form.Label>
-                    <Form.Control type="email" name="email" placeholder="name@example.com" onChange={handleInputChange} required />
+                    <Form.Control type="email" name="user_email" placeholder="name@example.com" onChange={handleInputChange} required />
                     <Form.Control.Feedback type="invalid">
                       Please provide your email address.
                     </Form.Control.Feedback>
                   </Form.Group>
-                  <Form.Group className="mb-3" as={Col} md="4" controlId="phone">
+                  <Form.Group className="mb-3" as={Col} md="4" controlId="user_number">
                     <Form.Label>Contact Number</Form.Label>
-                    <Form.Control type="tel" name="phone" placeholder="+44 01234 567 890" onChange={handleInputChange} required />
+                    <Form.Control type="tel" name="user_number" placeholder="+44 01234 567 890" onChange={handleInputChange} required />
                     <Form.Control.Feedback type="invalid">
                       Please provide contact number.
                     </Form.Control.Feedback>
