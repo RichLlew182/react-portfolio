@@ -8,10 +8,11 @@ import { motion } from 'framer-motion';
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
-
 function Contact() {
 
   const form = useRef();
+
+
 
   const [validated, setValidated] = useState(false);
 
@@ -112,31 +113,31 @@ function Contact() {
                 <Row className="mb-sm-3">
                   <Form.Group className="mb-3" as={Col} md="4" controlId="user_name">
                     <Form.Label>Name</Form.Label>
-                    <Form.Control type="text" name="user_name" placeholder="Name" value={formData.name} onChange={handleInputChange} required />
+                    <Form.Control type="text" name="user_name" placeholder="Name" pattern="[A-Za-z]+(\s[A-Za-z]+)?\s?" value={formData.name} onChange={handleInputChange} required />
                     <Form.Control.Feedback type="invalid">
                       Please provide your name.
                     </Form.Control.Feedback>
                   </Form.Group>
                   <Form.Group className="mb-3" as={Col} md="4" controlId="user_email">
                     <Form.Label>Email address</Form.Label>
-                    <Form.Control type="email" name="user_email" placeholder="name@example.com" onChange={handleInputChange} required />
+                    <Form.Control type="email" name="user_email" pattern="^[\w-]+(\.[\w-]+)*@[A-Za-z0-9]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$" placeholder="name@example.com" onChange={handleInputChange} required />
                     <Form.Control.Feedback type="invalid">
                       Please provide your email address.
                     </Form.Control.Feedback>
                   </Form.Group>
                   <Form.Group className="mb-3" as={Col} md="4" controlId="user_number">
                     <Form.Label>Contact Number</Form.Label>
-                    <Form.Control type="tel" name="user_number" placeholder="+44 01234 567 890" onChange={handleInputChange} required />
+                    <Form.Control type="tel" minLength={7} name="user_number" placeholder="+44 01234 567 890" pattern="[0-9]*" onChange={handleInputChange} required />
                     <Form.Control.Feedback type="invalid">
-                      Please provide contact number.
+                      Please provide a valid contact number.
                     </Form.Control.Feedback>
                   </Form.Group>
                 </Row>
                 <Form.Group className="mb-3 d-flex flex-column" controlId="message">
                   <Form.Label>Your Message</Form.Label>
-                  <Form.Control as="textarea" name="message" rows={3} onChange={handleInputChange} required />
+                  <Form.Control as="textarea" minLength={5} name="message" rows={3} onChange={handleInputChange} required />
                   <Form.Control.Feedback type="invalid">
-                    Please let me know what you want to discuss.
+                    Please let me know what you want to discuss (minimum 10 characters)
                   </Form.Control.Feedback>
                 </Form.Group>
                 <Button className="mt-3 border-0" variant="primary" type="submit" id="contactButton">
