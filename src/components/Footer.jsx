@@ -4,15 +4,15 @@ function Footer() {
   return (
     <>
 
-      <footer className="container px-4 px-sm-0 d-flex flex-wrap justify-content-center justify-content-sm-between align-items-center py-3 my-4 mt-5 border-top">
-        <div className="col-sm-6 d-flex align-items-center">
+      <footer className="container px-4 px-sm-0 d-flex flex-column flex-sm-row flex-wrap justify-content-center justify-content-sm-between align-items-center py-3 my-4 mt-5 border-top">
+        <div className="col-md-6 d-flex align-items-center">
 
 
 
           <motion.div initial={{ opacity: 0, y: -40 }} whileInView={{ opacity: 1, y: 0 }} transition={{ delay: .1 }}> <span className="mb-3 mb-sm-0">© 2024 Richard Llewellyn</span></motion.div>
         </div>
 
-        <ul className="nav col-sm-6 justify-content-end list-unstyled d-flex">
+        <ul className="nav col-md-6 justify-content-end list-unstyled d-flex">
 
           <motion.li initial={{ opacity: 0, y: -40 }} whileInView={{ opacity: 1, y: 0 }} transition={{ delay: .2 }} className="ms-3"><a className="text-decoration-none" target="_blank" href="https://github.com/RichLlew182"><i
             className="fa-brands fa-github me-2"></i>Github</a></motion.li>

@@ -26,8 +26,12 @@ header,
   background-color: #15F5BA;
 }
 
+.btn-toolbar {
+  row-gap: 1rem;
+}
+
 #intro {
-  min-height: 300px;
+  min-height: 30vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -53,6 +57,10 @@ header,
 .navbar-brand {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 500;
+}
+
+footer {
+  row-gap: 1rem;
 }
 
 footer a {
