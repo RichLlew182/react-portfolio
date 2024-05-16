@@ -33,27 +33,25 @@ function Contact() {
       // displays thank you message if all fields have been validated and hides form
       thankYouMessage.style = { displayBlock }
       contactForm.style.display = 'none';
+
+      emailjs
+        .sendForm('service_iexlgqf', 'template_fpprsue', form.current, {
+          publicKey: 'QyHKUwnZacZj_blyQ',
+        })
+        .then(
+          () => {
+            console.log('Success! Email has been sent.');
+          },
+          (error) => {
+            console.log('FAILED...', error.text);
+          },
+        );
+      // Updating the forms validated state to be true
     }
 
-    // Updating the forms validated state to be true
     setValidated(true);
 
-    emailjs
-      .sendForm('service_iexlgqf', 'template_fpprsue', form.current, {
-        publicKey: 'QyHKUwnZacZj_blyQ',
-      })
-      .then(
-        () => {
-          console.log('SUCCESS!');
-        },
-        (error) => {
-          console.log('FAILED...', error.text);
-        },
-      );
-
-    // setValidated(true);
   };
-
 
 
   // Setting initial state to an object
@@ -75,28 +73,6 @@ function Contact() {
     });
 
   };
-
-  // const handleFormSubmit = (event) => {
-
-  //   event.preventDefault();
-
-  //   const form = event.currentTarget;
-
-  //   // checks if input fields have passed validation
-  //   if (form.checkValidity() === false) {
-  //     event.preventDefault();
-  //     event.stopPropagation();
-  //   } else {
-  //     // displays thank you message if all fields have been validated and hides form
-  //     thankYouMessage.style = { displayBlock }
-  //     contactForm.style.display = 'none';
-  //   }
-
-  //   // Updating the forms validated state to be true
-  //   setValidated(true);
-  //   console.log(formData)
-
-  // }
 
   return (
     <>
@@ -167,7 +143,7 @@ function Contact() {
                   Submit
                 </Button>
               </Form>
-              <div id="thankYouMessage" style={displayNone}><h3><span className="d-block mb-4">Thanks for reaching out {formData.name}! </span><span className="d-block">I&apos;ll be in touch to discuss your project within 24 hours.</span></h3></div>
+              <div id="thankYouMessage" style={displayNone}><h3><span className="d-block mb-4">Thanks for reaching out {formData.user_name}! </span><span className="d-block">I&apos;ll be in touch to discuss your project within 24 hours.</span></h3></div>
             </motion.div>
           </div>
         </Row>
