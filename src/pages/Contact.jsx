@@ -12,8 +12,6 @@ function Contact() {
 
   const form = useRef();
 
-
-
   const [validated, setValidated] = useState(false);
 
   const contactForm = document.querySelector('#contact-form');

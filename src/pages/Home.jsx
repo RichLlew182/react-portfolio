@@ -1,5 +1,5 @@
 import Row from "react-bootstrap/Row";
-import Jumbotron from './Jumbotron'
+import Jumbotron from '../components/Jumbotron'
 import { motion } from "framer-motion";
 import { Link, useNavigate } from 'react-router-dom';
 import skillsList from '../../data/skills.json'

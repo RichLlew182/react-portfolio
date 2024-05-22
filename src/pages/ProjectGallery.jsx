@@ -1,4 +1,4 @@
-import ProjectCard from "./ProjectCard";
+import ProjectCard from "../components/ProjectCard";
 import projectList from "../../data/project-list.json"
 import { motion } from "framer-motion";
 
