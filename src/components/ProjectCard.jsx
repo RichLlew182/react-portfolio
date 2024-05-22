@@ -9,7 +9,7 @@ function ProjectCard({ title, image, description, deployedURL, altText, techOne,
           <Card.Img variant="top" src={image} alt={altText} />
         </a>
         <Card.Body className="p-4">
-          <Card.Title className="mb-3">{title}</Card.Title>
+          <Card.Title className="mb-3 text-highlight">{title}</Card.Title>
           <Card.Text>
             {description}
           </Card.Text>

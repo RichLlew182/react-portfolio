@@ -1,5 +1,5 @@
 import Row from "react-bootstrap/Row";
-import Jumbotron from './Jumbotron'
+import Jumbotron from '../components/Jumbotron'
 import { motion } from "framer-motion";
 import { Link, useNavigate } from 'react-router-dom';
 import skillsList from '../../data/skills.json'
@@ -44,7 +44,7 @@ function Home() {
         <Row>
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 1.25 }} className="col-lg-12 col-xl-6 mb-5 mb-xl-0">
             <div className="mb-4 pe-3">
-              <h2 className="mb-4 display-5">About me</h2>
+              <h2 className="mb-4 display-5 text-highlight">About me</h2>
               <p>My name is Richard, and I&apos;m a skilled Front-End Developer and designer based in London. With a rich background spanning several years in the design industry, I am now eagerly seeking fresh challenges and exciting opportunities to leverage my expertise as a Front-End Developer.</p>
               <p>
                 Whether you&apos;re a prospective collaborator, a fellow enthusiast in the tech community, or simply curious to learn more about my journey, I invite you to explore my work and discover the innovative solutions I bring to the table.
@@ -57,11 +57,11 @@ function Home() {
 
           <div className="col-lg-12 col-xl-6">
             <div className="h-100 ">
-              <motion.h2 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 1.5 }} className="mb-4 display-5">My skills so far...</motion.h2>
+              <motion.h2 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 1.5 }} className="mb-4 display-5 text-highlight">My skills so far...</motion.h2>
 
               <ul className="list-group list-group-horizontal d-flex flex-wrap gap-3 pt-1">{
                 skillsList.map((skill, index) => (
-                  <motion.li className='list-group-item d-flex py-2 align-items-center rounded border-0' key={skill.id} variants={fadeInAnimationVariants} initial={"initial"} animate={"animate"} custom={index}>
+                  <motion.li className='list-group-item d-flex py-2 align-items-center rounded' key={skill.id} variants={fadeInAnimationVariants} initial={"initial"} animate={"animate"} custom={index}>
                     <img className="skill-icon" src={skill.icon} alt={skill.alt} height="20" width="25"></img>
                     {skill.title}
                   </motion.li>

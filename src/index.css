@@ -1,3 +1,18 @@
+:root,
+[data-bs-theme=light] {
+
+  --bs-primary: #836FFF;
+  --bs-primary-rgb: 131, 111, 255;
+
+  --primaryGreen: #15F5BA;
+  --faintBorder: 1px solid rgb(240 243 255 / 20%);
+}
+
+[data-bs-theme="dark"] {
+  --bs-body-bg: #20123b;
+  --bs-body-bg-rgb: 32, 18, 59
+}
+
 body {
 
   font-family: 'DM Sans';
@@ -23,7 +38,26 @@ h6,
 header,
 #intro,
 .primary-green {
-  background-color: #15F5BA;
+  background-color: var(--primaryGreen)
+}
+
+header {
+  border-bottom: var(--faintBorder)
+}
+
+#intro,
+#projects {
+  border-bottom: var(--faintBorder);
+}
+
+[data-bs-theme="dark"] header,
+[data-bs-theme="dark"] #intro,
+[data-bs-theme="dark"] .primary-green {
+  background-color: var(--bs-body-bg)
+}
+
+[data-bs-theme="dark"] .text-highlight {
+  color: var(--primaryGreen)
 }
 
 .btn-toolbar {
@@ -52,11 +86,18 @@ header,
   outline: none !important;
   -webkit-box-shadow: none !Important;
   box-shadow: none !Important;
+  padding-right: 0;
 }
 
 .navbar-brand {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 500;
+}
+
+.navbar i {
+  min-width: 22px;
+  text-align: center;
+  font-size: 18px;
 }
 
 footer {
@@ -104,6 +145,13 @@ footer a {
   -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   border: none;
+  border: 1px solid var(--primaryGreen)
+}
+
+[data-bs-theme="dark"] .card {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: var(--faintBorder)
 }
 
 .card-img,
@@ -123,6 +171,12 @@ span.badge.bg-info {
   margin-right: 4px;
   border-radius: 5px;
   padding: 7px 15px;
+  border: var(--faintBorder)
+}
+
+[data-bs-theme="dark"] span.badge.bg-info {
+  background: var(--bs-body-bg) !important;
+  color: white !important;
 }
 
 img.skill-icon {
@@ -135,18 +189,42 @@ img.skill-icon {
 
 .list-group-item {
   background-color: #F0F3FF;
+  border: var(--faintBorder);
+}
+
+.container {
+  position: relative;
+}
+
+.list-group-horizontal>.list-group-item+.list-group-item {
+  border-top-width: 1px;
+  border-left-width: 1px;
+}
+
+[data-bs-theme="dark"] .list-group-item {
+  background-color: #20123b
 }
 
 .form-control {
   border-radius: 4px;
-  border: none;
+  border: var(--faintBorder)
 }
 
 #contact-section {
-  background-color: #211951;
+  background-color: #20123b;
+  border: var(--faintBorder)
 }
 
+#mobile-dark-toggle {
+  position: absolute;
+  right: 45px;
+  top: 3px;
+  font-size: 22px;
+}
 
+#mobile-dark-toggle i {
+  font-size: 22px;
+}
 
 /* Media Queries */
 

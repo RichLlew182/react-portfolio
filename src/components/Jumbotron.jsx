@@ -29,7 +29,7 @@ function Jumbotron() {
         <div className="container py-0 py-sm-5 px-4 px-sm-0">
           <div className="row gx-5 d-flex flex-wrap align-items-center flex-column-reverse flex-md-row">
             <div className="col-md-6 col-lg-8 py-4  py-lg-0 d-flex justify-content-start">
-              <h1 className="display-4"><motion.span initial="hidden" animate="visible" variants={firstTextVariant} custom={0} className="d-block">Hi, I&apos;m Richard Llewellyn. </motion.span><motion.span initial="hidden" animate="visible" variants={secondTextVariant} custom={1} className="d-block">A Front-End Developer and Designer.</motion.span></h1>
+              <h1 className="display-4"><motion.span initial="hidden" animate="visible" variants={firstTextVariant} custom={0} className="d-block text-highlight">Hi, I&apos;m Richard Llewellyn. </motion.span><motion.span initial="hidden" animate="visible" variants={secondTextVariant} custom={1} className="d-block text-highlight">A Front-End Developer and Designer.</motion.span></h1>
 
             </div>
 
