@@ -77,7 +77,7 @@ function Contact() {
     <>
 
       <section id="intro">
-        <div className="container py-0 py-sm-5 px-4 px-sm-0">
+        <div className="container py-0 py-sm-5 px-4 px-lg-0">
           <div className="row gx-5 d-flex flex-wrap align-items-center flex-column-reverse flex-md-row">
             <div className="col-md-6 col-lg-8 py-4  py-lg-0 d-flex justify-content-start">
               <motion.h1 className="display-4 text-highlight" initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.25 }}>Contact me</motion.h1>
@@ -89,7 +89,7 @@ function Contact() {
         </div>
       </section>
 
-      <section className="container py-5 px-4 px-sm-0 mt-lg-4">
+      <section className="container py-5 px-4 px-lg-0 mt-lg-4">
         <Row>
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.33 }} className="col-lg-12 col-xl-4 mb-5 mb-xl-0">
 

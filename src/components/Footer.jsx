@@ -4,7 +4,7 @@ function Footer() {
   return (
     <>
 
-      <footer className="container px-4 px-sm-0 d-flex flex-column flex-sm-row flex-wrap justify-content-center justify-content-sm-between align-items-center py-3 my-4 mt-5 border-top">
+      <footer className="container px-5 px-lg-0 d-flex flex-column flex-sm-row flex-wrap justify-content-center justify-content-sm-between align-items-center py-3 my-4 mt-5 border-top">
         <div className="col-md-6 d-flex align-items-center">
 
 

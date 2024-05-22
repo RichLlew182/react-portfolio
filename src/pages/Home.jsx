@@ -39,11 +39,11 @@ function Home() {
   return (
     <>
       <Jumbotron />
-      <section className="container py-5 px-4 px-sm-0 mt-lg-4">
+      <section className="container py-5 px-5 px-lg-0 mt-lg-4">
 
         <Row>
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 1.25 }} className="col-lg-12 col-xl-6 mb-5 mb-xl-0">
-            <div className="mb-4 pe-3">
+            <div className="mb-4 pe-lg-3">
               <h2 className="mb-4 display-5 text-highlight">About me</h2>
               <p>My name is Richard, and I&apos;m a skilled Front-End Developer and designer based in London. With a rich background spanning several years in the design industry, I am now eagerly seeking fresh challenges and exciting opportunities to leverage my expertise as a Front-End Developer.</p>
               <p>
