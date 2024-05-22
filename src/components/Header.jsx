@@ -34,12 +34,12 @@ function Header() {
                 <motion.div initial={{ opacity: 0, y: -40 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 1.1 }} viewport={{ once: true }}><Nav.Link as={Link} className="me-lg-2" to="/">Home</Nav.Link></motion.div>
                 <motion.div initial={{ opacity: 0, y: -40 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 1.2 }} viewport={{ once: true }}><Nav.Link as={Link} className="me-lg-2" to="/projects">Projects</Nav.Link></motion.div>
                 <motion.div initial={{ opacity: 0, y: -40 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 1.3 }} viewport={{ once: true }}><Nav.Link as={Link} to="/contact">Contact</Nav.Link></motion.div>
-                <motion.div initial={{ opacity: 0, y: -40 }} onClick={handleDarkMode} animate={{ opacity: 1, y: 0 }} transition={{ delay: 1.4 }} viewport={{ once: true }}><Nav.Link>{darkMode ? <i className="fa-solid fa-sun text-highlight"></i> : <i className="fa-solid fa-moon"></i>}</Nav.Link></motion.div>
+                <motion.div initial={{ opacity: 0, y: -40 }} onClick={handleDarkMode} animate={{ opacity: 1, y: 0 }} transition={{ delay: 1.4 }} viewport={{ once: true }}><Nav.Link>{darkMode ? <i className="fa-solid fa-sun text-highlight"></i> : <i className="fa-solid fa-moon text-primary"></i>}</Nav.Link></motion.div>
               </Nav>
             </Navbar.Collapse>
 
           </Container>
-          <motion.div initial={{ opacity: 0, y: -40 }} onClick={handleDarkMode} animate={{ opacity: 1, y: 0 }} transition={{ delay: 1.4 }} viewport={{ once: true }}><Nav.Link>{darkMode ? <i className="fa-solid fa-sun"></i> : <i className="fa-solid fa-moon"></i>}</Nav.Link></motion.div>
+
         </Navbar>
       </header>
     </>
