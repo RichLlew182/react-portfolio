@@ -86,6 +86,7 @@ header {
   outline: none !important;
   -webkit-box-shadow: none !Important;
   box-shadow: none !Important;
+  padding-right: 0;
 }
 
 .navbar-brand {
@@ -94,8 +95,9 @@ header {
 }
 
 .navbar i {
-  min-width: 16px;
+  min-width: 22px;
   text-align: center;
+  font-size: 18px;
 }
 
 footer {
@@ -190,6 +192,10 @@ img.skill-icon {
   border: var(--faintBorder);
 }
 
+.container {
+  position: relative;
+}
+
 .list-group-horizontal>.list-group-item+.list-group-item {
   border-top-width: 1px;
   border-left-width: 1px;
@@ -209,7 +215,16 @@ img.skill-icon {
   border: var(--faintBorder)
 }
 
+#mobile-dark-toggle {
+  position: absolute;
+  right: 45px;
+  top: 3px;
+  font-size: 22px;
+}
 
+#mobile-dark-toggle i {
+  font-size: 22px;
+}
 
 /* Media Queries */
 
