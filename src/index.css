@@ -168,7 +168,7 @@ span.badge.bg-info {
   font-family: 'Plus Jakarta Sans';
   background: #F0F3FF !important;
   color: black !important;
-  margin-right: 4px;
+  margin-right: 5px;
   border-radius: 5px;
   padding: 7px 15px;
   border: var(--faintBorder)
@@ -226,6 +226,15 @@ img.skill-icon {
   font-size: 22px;
 }
 
+.technology {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  row-gap: 4px;
+}
+
 /* Media Queries */
 
 @media (max-width: 576px) {
@@ -235,7 +244,7 @@ img.skill-icon {
   }
 
   #profile-picture {
-    max-width: 80%;
+    max-width: 100%;
   }
 
 }
