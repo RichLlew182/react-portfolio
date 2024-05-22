@@ -3,23 +3,30 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 function Header() {
 
-  const [darkMode, setDarkMode] = useState(false)
+  const [darkMode, setDarkMode] = useState(() => {
+    const savedMode = localStorage.getItem('darkMode');
+    return savedMode ? JSON.parse(savedMode) : false;
+  });
+
+  useEffect(() => {
+    if (darkMode) {
+      document.querySelector('body').setAttribute('data-bs-theme', 'dark');
+    } else {
+      document.querySelector('body').setAttribute('data-bs-theme', 'light');
+    }
+  }, [darkMode]);
+
+  useEffect(() => {
+    localStorage.setItem('darkMode', JSON.stringify(darkMode));
+  }, [darkMode]);
 
   const handleDarkMode = () => {
-
-    if (!darkMode) {
-
-      document.querySelector('body').setAttribute('data-bs-theme', 'dark')
-      setDarkMode(true)
-    } else {
-      document.querySelector('body').setAttribute('data-bs-theme', 'light')
-      setDarkMode(false)
-    }
-  }
+    setDarkMode(!darkMode);
+  };
 
   return (
     <>
