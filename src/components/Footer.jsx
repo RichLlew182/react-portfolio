@@ -19,7 +19,7 @@ function Footer() {
           <motion.li initial={{ opacity: 0, y: -40 }} whileInView={{ opacity: 1, y: 0 }} transition={{ delay: .3 }} viewport={{ once: true }} className="ms-3"><a className="text-decoration-none text-highlight" target="_blank" href="https://www.linkedin.com/in/richard-lee-llewellyn"><i
             className="fa-brands fa-linkedin  me-2"></i>Linkedin</a></motion.li>
 
-          <motion.li initial={{ opacity: 0, y: -40 }} whileInView={{ opacity: 1, y: 0 }} transition={{ delay: .4 }} viewport={{ once: true }} className="ms-3"><a className="text-decoration-none text-highlight" target="_blank" href="./assets/files/richard-llewellyn-cv.pdf"><i className="fa-solid fa-file-lines me-2"></i>Resume</a></motion.li>
+          <motion.li initial={{ opacity: 0, y: -40 }} whileInView={{ opacity: 1, y: 0 }} transition={{ delay: .4 }} viewport={{ once: true }} className="ms-3"><a className="text-decoration-none text-highlight" target="_blank" href="./assets/files/richard-llewellyn-cv.pdf"><i className="fa-solid fa-file-lines me-2"></i>CV</a></motion.li>
 
 
         </ul>
