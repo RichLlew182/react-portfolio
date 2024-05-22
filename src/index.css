@@ -59,6 +59,11 @@ header,
   font-weight: 500;
 }
 
+.navbar i {
+  min-width: 16px;
+  text-align: center;
+}
+
 footer {
   row-gap: 1rem;
 }
