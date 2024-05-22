@@ -1,3 +1,8 @@
+[data-bs-theme="dark"] {
+  --bs-body-bg: #160C28;
+  --bs-body-bg-rgb: 22, 12, 40
+}
+
 body {
 
   font-family: 'DM Sans';
@@ -24,6 +29,25 @@ header,
 #intro,
 .primary-green {
   background-color: #15F5BA;
+}
+
+header {
+  border-bottom: 1px solid rgb(240 243 255 / 20%)
+}
+
+#intro,
+#projects {
+  border-bottom: 1px solid rgb(240 243 255 / 20%);
+}
+
+[data-bs-theme="dark"] header,
+[data-bs-theme="dark"] #intro,
+[data-bs-theme="dark"] .primary-green {
+  background-color: #20123b;
+}
+
+[data-bs-theme="dark"] .text-highlight {
+  color: #15F5BA;
 }
 
 .btn-toolbar {
@@ -111,6 +135,12 @@ footer a {
   border: none;
 }
 
+[data-bs-theme="dark"] .card {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: 1px solid rgb(240 243 255 / 20%)
+}
+
 .card-img,
 .card-img-bottom,
 .card-img-top {
@@ -140,15 +170,26 @@ img.skill-icon {
 
 .list-group-item {
   background-color: #F0F3FF;
+  border: 1px solid #F0F3FF;
+}
+
+.list-group-horizontal>.list-group-item+.list-group-item {
+  border-top-width: 1px;
+  border-left-width: 1px;
+}
+
+[data-bs-theme="dark"] .list-group-item {
+  background-color: #20123b
 }
 
 .form-control {
   border-radius: 4px;
-  border: none;
+  border: 1px solid rgb(240 243 255 / 20%)
 }
 
 #contact-section {
-  background-color: #211951;
+  background-color: #20123b;
+  border: 1px solid rgb(240 243 255 / 20%)
 }
 
 

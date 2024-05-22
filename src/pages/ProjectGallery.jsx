@@ -22,7 +22,7 @@ function ProjectGallery() {
 
       <section id="projects" className="primary-green">
         <div className="container py-5 px-4 px-sm-0">
-          <motion.h2 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.25 }} className="mb-4 display-5">Projects</motion.h2>
+          <motion.h2 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.25 }} className="mb-4 display-5 text-highlight">Projects</motion.h2>
           <div className="row">
             {
               projectList.map((project, index) => (
