@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "MongoDB",
+    "alt": "MongoDB Icon",
+    "icon": "./assets/icons/learning/mongoDB-icon.svg"
+  },
+  {
+    "id": 2,
+    "title": "Express",
+    "alt": "Express 5 Icon",
+    "icon": "./assets/icons/learning/express-icon.svg"
+  },
+  {
+    "id": 3,
+    "title": "SQL",
+    "alt": "SQL Icon",
+    "icon": "./assets/icons/learning/sql-icon.svg"
+  },
+  {
+    "id": 4,
+    "title": "Next.js",
+    "alt": "Next.js Icon",
+    "icon": "./assets/icons/learning/next-js-icon.svg"
+  },
+  {
+    "id": 5,
+    "title": "Sass",
+    "alt": "Sass Icon",
+    "icon": "./assets/icons/learning/sass-icon.svg"
+  }
+]

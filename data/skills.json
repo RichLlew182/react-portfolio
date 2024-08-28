@@ -3,78 +3,78 @@
     "id": 1,
     "title": "HTML5",
     "alt": "HTML 5 Icon",
-    "icon": "./assets/icons/html-icon.svg"
+    "icon": "./assets/icons/skills/html-icon.svg"
   },
   {
     "id": 2,
     "title": "CSS3",
     "alt": "CSS 3 Icon",
-    "icon": "./assets/icons/css-icon.svg"
+    "icon": "./assets/icons/skills/css-icon.svg"
   },
   {
     "id": 3,
     "title": "JavaScript",
     "alt": "JavaScript Icon",
-    "icon": "./assets/icons/js-icon.svg"
+    "icon": "./assets/icons/skills/js-icon.svg"
   },
   {
     "id": 4,
     "title": "React",
     "alt": "React Icon",
-    "icon": "./assets/icons/react-icon.svg"
+    "icon": "./assets/icons/skills/react-icon.svg"
   },
   {
     "id": 5,
     "title": "Tailwind CSS",
     "alt": "Tailwind CSS Icon",
-    "icon": "./assets/icons/tailwind-icon.svg"
+    "icon": "./assets/icons/skills/tailwind-icon.svg"
   },
   {
     "id": 6,
     "title": "Bootstrap",
     "alt": "Bootstrap Icon",
-    "icon": "./assets/icons/bootstrap-icon.svg"
+    "icon": "./assets/icons/skills/bootstrap-icon.svg"
   },
   {
     "id": 7,
     "title": "jQuery",
     "alt": "jQuery Icon",
-    "icon": "./assets/icons/jquery-icon.svg"
+    "icon": "./assets/icons/skills/jquery-icon.svg"
   },
   {
     "id": 8,
     "title": "Node.js",
     "alt": "Node.js Icon",
-    "icon": "./assets/icons/node-icon.svg"
+    "icon": "./assets/icons/skills/node-icon.svg"
   },
   {
     "id": 9,
     "title": "Git",
     "alt": "Git Icon",
-    "icon": "./assets/icons/git-icon.svg"
+    "icon": "./assets/icons/skills/git-icon.svg"
   },
   {
     "id": 10,
     "title": "Figma",
     "alt": "Figma Icon",
-    "icon": "./assets/icons/figma-icon.svg"
+    "icon": "./assets/icons/skills/figma-icon.svg"
   },
   {
     "id": 11,
     "title": "Photoshop",
     "alt": "Photoshop Icon",
-    "icon": "./assets/icons/photoshop-icon.svg"
+    "icon": "./assets/icons/skills/photoshop-icon.svg"
   },
   {
     "id": 12,
     "title": "Illustrator",
     "alt": "Illustrator Icon",
-    "icon": "./assets/icons/illustrator-icon.svg"
+    "icon": "./assets/icons/skills/illustrator-icon.svg"
   },
   {
     "id": 13,
     "title": "After Effects",
     "alt": "After Effects Icon",
-    "icon": "./assets/icons/after-effects-icon.svg"
+    "icon": "./assets/icons/skills/after-effects-icon.svg"
   }
 ]
