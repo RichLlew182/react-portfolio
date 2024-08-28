@@ -3,6 +3,7 @@ import Jumbotron from '../components/Jumbotron'
 import { motion } from "framer-motion";
 import { Link, useNavigate } from 'react-router-dom';
 import skillsList from '../../data/skills.json'
+import learningList from '../../data/learning.json'
 
 function Home() {
 
@@ -34,6 +35,20 @@ function Home() {
     })
   }
 
+  const fadeInAnimationVariantsLearning = {
+    initial: {
+      opacity: 0,
+      y: 100,
+    },
+    animate: (index) => ({
+      opacity: 1,
+      y: 0,
+      transition: {
+        delay: 3.6 + 0.08 * index,
+      }
+    })
+  }
+
 
 
   return (
@@ -55,9 +70,9 @@ function Home() {
             </div>
           </motion.div>
 
-          <div className="col-lg-12 col-xl-6">
-            <div className="h-100 ">
-              <motion.h2 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 1.5 }} className="mb-4 display-5 text-highlight">My skills so far...</motion.h2>
+          <div id="skills" className="col-lg-12 col-xl-6">
+            <div className="">
+              <motion.h2 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 1.5 }} className="mb-4 display-5 text-highlight">My skills so far</motion.h2>
 
               <ul className="list-group list-group-horizontal d-flex flex-wrap gap-3 pt-1">{
                 skillsList.map((skill, index) => (
@@ -70,7 +85,24 @@ function Home() {
 
               </ul>
             </div>
+
+            <div id="learning"className="mt-4">
+              <motion.h2 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 3 }} className="mb-4 display-5 text-highlight">In progress...</motion.h2>
+
+              <ul className="list-group list-group-horizontal d-flex flex-wrap gap-3 pt-1">{
+                learningList.map((skill, index) => (
+                  <motion.li className='list-group-item d-flex py-2 align-items-center rounded' key={skill.id} variants={fadeInAnimationVariantsLearning} initial={"initial"} animate={"animate"} custom={index}>
+                    <img className="skill-icon" src={skill.icon} alt={skill.alt} height="20" width="25"></img>
+                    {skill.title}
+                  </motion.li>
+                ))
+              }
+
+              </ul>
+            </div>
           </div>
+
+
         </Row>
 
       </section >
