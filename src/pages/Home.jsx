@@ -56,8 +56,23 @@ function Home() {
           </motion.div>
 
           <div className="col-lg-12 col-xl-6">
-            <div className="h-100 ">
-              <motion.h2 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 1.5 }} className="mb-4 display-5 text-highlight">My skills so far...</motion.h2>
+            <div className="h-50 ">
+              <motion.h2 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 1.5 }} className="mb-4 display-5 text-highlight">My skills so far</motion.h2>
+
+              <ul className="list-group list-group-horizontal d-flex flex-wrap gap-3 pt-1">{
+                skillsList.map((skill, index) => (
+                  <motion.li className='list-group-item d-flex py-2 align-items-center rounded' key={skill.id} variants={fadeInAnimationVariants} initial={"initial"} animate={"animate"} custom={index}>
+                    <img className="skill-icon" src={skill.icon} alt={skill.alt} height="20" width="25"></img>
+                    {skill.title}
+                  </motion.li>
+                ))
+              }
+
+              </ul>
+            </div>
+
+            <div className="h-50 mt-4">
+              <motion.h2 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 1.5 }} className="mb-4 display-5 text-highlight">In progress...</motion.h2>
 
               <ul className="list-group list-group-horizontal d-flex flex-wrap gap-3 pt-1">{
                 skillsList.map((skill, index) => (
@@ -71,6 +86,8 @@ function Home() {
               </ul>
             </div>
           </div>
+
+
         </Row>
 
       </section >
