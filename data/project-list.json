@@ -1,6 +1,20 @@
 [
   {
     "id": 1,
+    "title": "CAST25",
+    "description": "A react website for CAST25: a dynamic and versatile project delivery consultancy.",
+    "tech": [
+      "React",
+      "GSAP",
+      "Tailwind CSS"
+    ],
+    "image": "./assets/images/cast25.png",
+    "imageAltText": "iMac mockup of CAST25 website.",
+    "deployedURL": "https://www.cast25.com/",
+    "repoLink": "https://github.com/RichLlew182/Cast-25"
+  },
+  {
+    "id": 2,
     "title": "DevOpps",
     "description": "A platform for developers which makes job searches and candidate sourcing hassle-free.",
     "tech": [
@@ -14,7 +28,7 @@
     "repoLink": "https://github.com/RichLlew182/DevOpps"
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "The Pursuit of Hobbyness",
     "description": "An innovative web application designed to inspire users in discovering and embracing new hobbies.",
     "tech": [
@@ -28,9 +42,9 @@
     "repoLink": "https://github.com/RichLlew182/the-pursuit-of-hobbyness"
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "Webdadi.com",
-    "description": "Website design for an online platform offering both CRM solutions and website templates.",
+    "description": "A Website design for an online platform offering both CRM solutions and website templates.",
     "tech": [
       "Figma",
       "Custom CSS",
@@ -42,7 +56,7 @@
     "repoLink": ""
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Bootstrap Portfolio",
     "description": "My first attempt at a portfolio page utilising Bootstrap components and custom css.",
     "tech": [
@@ -56,7 +70,7 @@
     "repoLink": "https://github.com/RichLlew182/Bootstrap-Portfolio"
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "Weather Dashboard",
     "description": "An App that displays a 5 day weather forecast for any city using the OpenWeather API",
     "tech": [
@@ -68,19 +82,5 @@
     "imageAltText": "",
     "deployedURL": "https://richllew182.github.io/weather-dashboard/",
     "repoLink": "https://github.com/RichLlew182/weather-dashboard"
-  },
-  {
-    "id": 6,
-    "title": "Code Quiz",
-    "description": "A timed coding quiz with multiple-choice questions and high-scores.",
-    "tech": [
-      "HTML",
-      "Javascript",
-      "Local Storage"
-    ],
-    "image": "./assets/images/coding-quiz.png",
-    "imageAltText": "iPhone mockup of Coding Quiz app.",
-    "deployedURL": "https://richllew182.github.io/code-quiz/",
-    "repoLink": "https://github.com/RichLlew182/code-quiz"
   }
 ]

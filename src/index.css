@@ -31,8 +31,8 @@ h5,
 .h5,
 h6,
 .h6 {
-  font-family: "Plus Jakarta Sans", sans-serif;
-  font-weight: 600;
+  font-family: "Parkinsans", sans-serif;
+  font-weight: 500;
 }
 
 header,
@@ -90,7 +90,7 @@ header {
 }
 
 .navbar-brand {
-  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: "Parkinsans", sans-serif;
   font-weight: 500;
 }
 
@@ -138,7 +138,7 @@ footer a {
 
 .display-5,
 .display-4 {
-  font-weight: 600 !important;
+  font-weight: 500 !important;
 }
 
 .card {
@@ -165,7 +165,7 @@ footer a {
 
 span.badge.bg-info {
   font-weight: normal;
-  font-family: 'Plus Jakarta Sans';
+  font-family: "Parkinsans", sans-serif;
   background: #F0F3FF !important;
   color: black !important;
   margin-right: 5px;
