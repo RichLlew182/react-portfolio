@@ -9,7 +9,7 @@ function Footer() {
 
 
 
-          <motion.div initial={{ opacity: 0, y: -40 }} whileInView={{ opacity: 1, y: 0 }} transition={{ delay: .1 }} viewport={{ once: true }}> <span className="mb-3 mb-sm-0">© 2024 Richard Llewellyn</span></motion.div>
+          <motion.div initial={{ opacity: 0, y: -40 }} whileInView={{ opacity: 1, y: 0 }} transition={{ delay: .1 }} viewport={{ once: true }}> <span className="mb-3 mb-sm-0">© 2025 Richard Llewellyn</span></motion.div>
         </div>
 
         <ul className="nav col-md-6 justify-content-end list-unstyled d-flex">
